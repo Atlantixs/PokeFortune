@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>PokeFortune</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="3.2.0" />
+    <PackageReference Include="Prism.Unity" Version="8.0.0.1909" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Modules\PokeFortune.FavouriteEditor\PokeFortune.FavouriteEditor.csproj" />
+    <ProjectReference Include="..\PokeFortune.Core\PokeFortune.Core.csproj" />
+    <ProjectReference Include="..\PokeFortune.Data\PokeFortune.Data.csproj" />
+    <ProjectReference Include="..\Services\PokeFortune.Services.Interfaces\PokeFortune.Services.Interfaces.csproj" />
+    <ProjectReference Include="..\Services\PokeFortune.Services\PokeFortune.Services.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Dictionaries\ConverterDictionary.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Dictionaries\CoreDictionary.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,3345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Poke_Missingno" xml:space="preserve">
+    <value>Missingno.</value>
+  </data>
+  <data name="Poke_Bisasam" xml:space="preserve">
+    <value>Bisasam</value>
+  </data>
+  <data name="Poke_Bisaknosp" xml:space="preserve">
+    <value>Bisaknosp</value>
+  </data>
+  <data name="Poke_Bisaflor" xml:space="preserve">
+    <value>Bisaflor</value>
+  </data>
+  <data name="Poke_Glumanda" xml:space="preserve">
+    <value>Glumanda</value>
+  </data>
+  <data name="Poke_Glutexo" xml:space="preserve">
+    <value>Glutexo</value>
+  </data>
+  <data name="Poke_Glurak" xml:space="preserve">
+    <value>Glurak</value>
+  </data>
+  <data name="Poke_Schiggy" xml:space="preserve">
+    <value>Schiggy</value>
+  </data>
+  <data name="Poke_Schillok" xml:space="preserve">
+    <value>Schillok</value>
+  </data>
+  <data name="Poke_Turtok" xml:space="preserve">
+    <value>Turtok</value>
+  </data>
+  <data name="Poke_Raupy" xml:space="preserve">
+    <value>Raupy</value>
+  </data>
+  <data name="Poke_Safcon" xml:space="preserve">
+    <value>Safcon</value>
+  </data>
+  <data name="Poke_Smettbo" xml:space="preserve">
+    <value>Smettbo</value>
+  </data>
+  <data name="Poke_Hornliu" xml:space="preserve">
+    <value>Hornliu</value>
+  </data>
+  <data name="Poke_Kokuna" xml:space="preserve">
+    <value>Kokuna</value>
+  </data>
+  <data name="Poke_Bibor" xml:space="preserve">
+    <value>Bibor</value>
+  </data>
+  <data name="Poke_Taubsi" xml:space="preserve">
+    <value>Taubsi</value>
+  </data>
+  <data name="Poke_Tauboga" xml:space="preserve">
+    <value>Tauboga</value>
+  </data>
+  <data name="Poke_Tauboss" xml:space="preserve">
+    <value>Tauboss</value>
+  </data>
+  <data name="Poke_Rattfratz" xml:space="preserve">
+    <value>Rattfratz</value>
+  </data>
+  <data name="Poke_Rattikarl" xml:space="preserve">
+    <value>Rattikarl</value>
+  </data>
+  <data name="Poke_Habitak" xml:space="preserve">
+    <value>Habitak</value>
+  </data>
+  <data name="Poke_Ibitak" xml:space="preserve">
+    <value>Ibitak</value>
+  </data>
+  <data name="Poke_Rettan" xml:space="preserve">
+    <value>Rettan</value>
+  </data>
+  <data name="Poke_Arbok" xml:space="preserve">
+    <value>Arbok</value>
+  </data>
+  <data name="Poke_Pikachu" xml:space="preserve">
+    <value>Pikachu</value>
+  </data>
+  <data name="Poke_Raichu" xml:space="preserve">
+    <value>Raichu</value>
+  </data>
+  <data name="Poke_Sandan" xml:space="preserve">
+    <value>Sandan</value>
+  </data>
+  <data name="Poke_Sandamer" xml:space="preserve">
+    <value>Sandamer</value>
+  </data>
+  <data name="Poke_NidoranW" xml:space="preserve">
+    <value>Nidoran♀</value>
+  </data>
+  <data name="Poke_Nidorina" xml:space="preserve">
+    <value>Nidorina</value>
+  </data>
+  <data name="Poke_Nidoqueen" xml:space="preserve">
+    <value>Nidoqueen</value>
+  </data>
+  <data name="Poke_NidoranM" xml:space="preserve">
+    <value>Nidoran♂</value>
+  </data>
+  <data name="Poke_Nidorino" xml:space="preserve">
+    <value>Nidorino</value>
+  </data>
+  <data name="Poke_Nidoking" xml:space="preserve">
+    <value>Nidoking</value>
+  </data>
+  <data name="Poke_Piepi" xml:space="preserve">
+    <value>Piepi</value>
+  </data>
+  <data name="Poke_Pixi" xml:space="preserve">
+    <value>Pixi</value>
+  </data>
+  <data name="Poke_Vulpix" xml:space="preserve">
+    <value>Vulpix</value>
+  </data>
+  <data name="Poke_Vulnona" xml:space="preserve">
+    <value>Vulnona</value>
+  </data>
+  <data name="Poke_Pummeluff" xml:space="preserve">
+    <value>Pummeluff</value>
+  </data>
+  <data name="Poke_Knuddeluff" xml:space="preserve">
+    <value>Knuddeluff</value>
+  </data>
+  <data name="Poke_Zubat" xml:space="preserve">
+    <value>Zubat</value>
+  </data>
+  <data name="Poke_Golbat" xml:space="preserve">
+    <value>Golbat</value>
+  </data>
+  <data name="Poke_Myrapla" xml:space="preserve">
+    <value>Myrapla</value>
+  </data>
+  <data name="Poke_Duflor" xml:space="preserve">
+    <value>Duflor</value>
+  </data>
+  <data name="Poke_Giflor" xml:space="preserve">
+    <value>Giflor</value>
+  </data>
+  <data name="Poke_Paras" xml:space="preserve">
+    <value>Paras</value>
+  </data>
+  <data name="Poke_Parasek" xml:space="preserve">
+    <value>Parasek</value>
+  </data>
+  <data name="Poke_Bluzuk" xml:space="preserve">
+    <value>Bluzuk</value>
+  </data>
+  <data name="Poke_Omot" xml:space="preserve">
+    <value>Omot</value>
+  </data>
+  <data name="Poke_Digda" xml:space="preserve">
+    <value>Digda</value>
+  </data>
+  <data name="Poke_Digdri" xml:space="preserve">
+    <value>Digdri</value>
+  </data>
+  <data name="Poke_Mauzi" xml:space="preserve">
+    <value>Mauzi</value>
+  </data>
+  <data name="Poke_Snobilikat" xml:space="preserve">
+    <value>Snobilikat</value>
+  </data>
+  <data name="Poke_Enton" xml:space="preserve">
+    <value>Enton</value>
+  </data>
+  <data name="Poke_Entoron" xml:space="preserve">
+    <value>Entoron</value>
+  </data>
+  <data name="Poke_Menki" xml:space="preserve">
+    <value>Menki</value>
+  </data>
+  <data name="Poke_Rasaff" xml:space="preserve">
+    <value>Rasaff</value>
+  </data>
+  <data name="Poke_Fukano" xml:space="preserve">
+    <value>Fukano</value>
+  </data>
+  <data name="Poke_Arkani" xml:space="preserve">
+    <value>Arkani</value>
+  </data>
+  <data name="Poke_Quapsel" xml:space="preserve">
+    <value>Quapsel</value>
+  </data>
+  <data name="Poke_Quaputzi" xml:space="preserve">
+    <value>Quaputzi</value>
+  </data>
+  <data name="Poke_Quappo" xml:space="preserve">
+    <value>Quappo</value>
+  </data>
+  <data name="Poke_Abra" xml:space="preserve">
+    <value>Abra</value>
+  </data>
+  <data name="Poke_Kadabra" xml:space="preserve">
+    <value>Kadabra</value>
+  </data>
+  <data name="Poke_Simsala" xml:space="preserve">
+    <value>Simsala</value>
+  </data>
+  <data name="Poke_Machollo" xml:space="preserve">
+    <value>Machollo</value>
+  </data>
+  <data name="Poke_Maschock" xml:space="preserve">
+    <value>Maschock</value>
+  </data>
+  <data name="Poke_Machomei" xml:space="preserve">
+    <value>Machomei</value>
+  </data>
+  <data name="Poke_Knofensa" xml:space="preserve">
+    <value>Knofensa</value>
+  </data>
+  <data name="Poke_Ultrigaria" xml:space="preserve">
+    <value>Ultrigaria</value>
+  </data>
+  <data name="Poke_Sarzenia" xml:space="preserve">
+    <value>Sarzenia</value>
+  </data>
+  <data name="Poke_Tentacha" xml:space="preserve">
+    <value>Tentacha</value>
+  </data>
+  <data name="Poke_Tentoxa" xml:space="preserve">
+    <value>Tentoxa</value>
+  </data>
+  <data name="Poke_Kleinstein" xml:space="preserve">
+    <value>Kleinstein</value>
+  </data>
+  <data name="Poke_Georok" xml:space="preserve">
+    <value>Georok</value>
+  </data>
+  <data name="Poke_Geowaz" xml:space="preserve">
+    <value>Geowaz</value>
+  </data>
+  <data name="Poke_Ponita" xml:space="preserve">
+    <value>Ponita</value>
+  </data>
+  <data name="Poke_Gallopa" xml:space="preserve">
+    <value>Gallopa</value>
+  </data>
+  <data name="Poke_Flegmon" xml:space="preserve">
+    <value>Flegmon</value>
+  </data>
+  <data name="Poke_Lahmus" xml:space="preserve">
+    <value>Lahmus</value>
+  </data>
+  <data name="Poke_Magnetilo" xml:space="preserve">
+    <value>Magnetilo</value>
+  </data>
+  <data name="Poke_Magneton" xml:space="preserve">
+    <value>Magneton</value>
+  </data>
+  <data name="Poke_Porenta" xml:space="preserve">
+    <value>Porenta</value>
+  </data>
+  <data name="Poke_Dodu" xml:space="preserve">
+    <value>Dodu</value>
+  </data>
+  <data name="Poke_Dodri" xml:space="preserve">
+    <value>Dodri</value>
+  </data>
+  <data name="Poke_Jurob" xml:space="preserve">
+    <value>Jurob</value>
+  </data>
+  <data name="Poke_Jugong" xml:space="preserve">
+    <value>Jugong</value>
+  </data>
+  <data name="Poke_Sleima" xml:space="preserve">
+    <value>Sleima</value>
+  </data>
+  <data name="Poke_Sleimok" xml:space="preserve">
+    <value>Sleimok</value>
+  </data>
+  <data name="Poke_Muschas" xml:space="preserve">
+    <value>Muschas</value>
+  </data>
+  <data name="Poke_Austos" xml:space="preserve">
+    <value>Austos</value>
+  </data>
+  <data name="Poke_Nebulak" xml:space="preserve">
+    <value>Nebulak</value>
+  </data>
+  <data name="Poke_Alpollo" xml:space="preserve">
+    <value>Alpollo</value>
+  </data>
+  <data name="Poke_Gengar" xml:space="preserve">
+    <value>Gengar</value>
+  </data>
+  <data name="Poke_Onix" xml:space="preserve">
+    <value>Onix</value>
+  </data>
+  <data name="Poke_Traumato" xml:space="preserve">
+    <value>Traumato</value>
+  </data>
+  <data name="Poke_Hypno" xml:space="preserve">
+    <value>Hypno</value>
+  </data>
+  <data name="Poke_Krabby" xml:space="preserve">
+    <value>Krabby</value>
+  </data>
+  <data name="Poke_Kingler" xml:space="preserve">
+    <value>Kingler</value>
+  </data>
+  <data name="Poke_Voltobal" xml:space="preserve">
+    <value>Voltobal</value>
+  </data>
+  <data name="Poke_Lektrobal" xml:space="preserve">
+    <value>Lektrobal</value>
+  </data>
+  <data name="Poke_Owei" xml:space="preserve">
+    <value>Owei</value>
+  </data>
+  <data name="Poke_Kokowei" xml:space="preserve">
+    <value>Kokowei</value>
+  </data>
+  <data name="Poke_Tragosso" xml:space="preserve">
+    <value>Tragosso</value>
+  </data>
+  <data name="Poke_Knogga" xml:space="preserve">
+    <value>Knogga</value>
+  </data>
+  <data name="Poke_Kicklee" xml:space="preserve">
+    <value>Kicklee</value>
+  </data>
+  <data name="Poke_Nockchan" xml:space="preserve">
+    <value>Nockchan</value>
+  </data>
+  <data name="Poke_Schlurp" xml:space="preserve">
+    <value>Schlurp</value>
+  </data>
+  <data name="Poke_Smogon" xml:space="preserve">
+    <value>Smogon</value>
+  </data>
+  <data name="Poke_Smogmog" xml:space="preserve">
+    <value>Smogmog</value>
+  </data>
+  <data name="Poke_Rihorn" xml:space="preserve">
+    <value>Rihorn</value>
+  </data>
+  <data name="Poke_Rizeros" xml:space="preserve">
+    <value>Rizeros</value>
+  </data>
+  <data name="Poke_Chaneira" xml:space="preserve">
+    <value>Chaneira</value>
+  </data>
+  <data name="Poke_Tangela" xml:space="preserve">
+    <value>Tangela</value>
+  </data>
+  <data name="Poke_Kangama" xml:space="preserve">
+    <value>Kangama</value>
+  </data>
+  <data name="Poke_Seeper" xml:space="preserve">
+    <value>Seeper</value>
+  </data>
+  <data name="Poke_Seemon" xml:space="preserve">
+    <value>Seemon</value>
+  </data>
+  <data name="Poke_Goldini" xml:space="preserve">
+    <value>Goldini</value>
+  </data>
+  <data name="Poke_Golking" xml:space="preserve">
+    <value>Golking</value>
+  </data>
+  <data name="Poke_Sterndu" xml:space="preserve">
+    <value>Sterndu</value>
+  </data>
+  <data name="Poke_Starmie" xml:space="preserve">
+    <value>Starmie</value>
+  </data>
+  <data name="Poke_Pantimos" xml:space="preserve">
+    <value>Pantimos</value>
+  </data>
+  <data name="Poke_Sichlor" xml:space="preserve">
+    <value>Sichlor</value>
+  </data>
+  <data name="Poke_Rossana" xml:space="preserve">
+    <value>Rossana</value>
+  </data>
+  <data name="Poke_Elektek" xml:space="preserve">
+    <value>Elektek</value>
+  </data>
+  <data name="Poke_Magmar" xml:space="preserve">
+    <value>Magmar</value>
+  </data>
+  <data name="Poke_Pinsir" xml:space="preserve">
+    <value>Pinsir</value>
+  </data>
+  <data name="Poke_Tauros" xml:space="preserve">
+    <value>Tauros</value>
+  </data>
+  <data name="Poke_Karpador" xml:space="preserve">
+    <value>Karpador</value>
+  </data>
+  <data name="Poke_Garados" xml:space="preserve">
+    <value>Garados</value>
+  </data>
+  <data name="Poke_Lapras" xml:space="preserve">
+    <value>Lapras</value>
+  </data>
+  <data name="Poke_Ditto" xml:space="preserve">
+    <value>Ditto</value>
+  </data>
+  <data name="Poke_Evoli" xml:space="preserve">
+    <value>Evoli</value>
+  </data>
+  <data name="Poke_Aquana" xml:space="preserve">
+    <value>Aquana</value>
+  </data>
+  <data name="Poke_Blitza" xml:space="preserve">
+    <value>Blitza</value>
+  </data>
+  <data name="Poke_Flamara" xml:space="preserve">
+    <value>Flamara</value>
+  </data>
+  <data name="Poke_Porygon" xml:space="preserve">
+    <value>Porygon</value>
+  </data>
+  <data name="Poke_Amonitas" xml:space="preserve">
+    <value>Amonitas</value>
+  </data>
+  <data name="Poke_Amoroso" xml:space="preserve">
+    <value>Amoroso</value>
+  </data>
+  <data name="Poke_Kabuto" xml:space="preserve">
+    <value>Kabuto</value>
+  </data>
+  <data name="Poke_Kabutops" xml:space="preserve">
+    <value>Kabutops</value>
+  </data>
+  <data name="Poke_Aerodactyl" xml:space="preserve">
+    <value>Aerodactyl</value>
+  </data>
+  <data name="Poke_Relaxo" xml:space="preserve">
+    <value>Relaxo</value>
+  </data>
+  <data name="Poke_Arktos" xml:space="preserve">
+    <value>Arktos</value>
+  </data>
+  <data name="Poke_Zapdos" xml:space="preserve">
+    <value>Zapdos</value>
+  </data>
+  <data name="Poke_Lavados" xml:space="preserve">
+    <value>Lavados</value>
+  </data>
+  <data name="Poke_Dratini" xml:space="preserve">
+    <value>Dratini</value>
+  </data>
+  <data name="Poke_Dragonir" xml:space="preserve">
+    <value>Dragonir</value>
+  </data>
+  <data name="Poke_Dragoran" xml:space="preserve">
+    <value>Dragoran</value>
+  </data>
+  <data name="Poke_Mewtu" xml:space="preserve">
+    <value>Mewtu</value>
+  </data>
+  <data name="Poke_Mew" xml:space="preserve">
+    <value>Mew</value>
+  </data>
+  <data name="Poke_Endivie" xml:space="preserve">
+    <value>Endivie</value>
+  </data>
+  <data name="Poke_Lorblatt" xml:space="preserve">
+    <value>Lorblatt</value>
+  </data>
+  <data name="Poke_Meganie" xml:space="preserve">
+    <value>Meganie</value>
+  </data>
+  <data name="Poke_Feurigel" xml:space="preserve">
+    <value>Feurigel</value>
+  </data>
+  <data name="Poke_Igelavar" xml:space="preserve">
+    <value>Igelavar</value>
+  </data>
+  <data name="Poke_Tornupto" xml:space="preserve">
+    <value>Tornupto</value>
+  </data>
+  <data name="Poke_Karnimani" xml:space="preserve">
+    <value>Karnimani</value>
+  </data>
+  <data name="Poke_Tyracroc" xml:space="preserve">
+    <value>Tyracroc</value>
+  </data>
+  <data name="Poke_Impergator" xml:space="preserve">
+    <value>Impergator</value>
+  </data>
+  <data name="Poke_Wiesor" xml:space="preserve">
+    <value>Wiesor</value>
+  </data>
+  <data name="Poke_Wiesenior" xml:space="preserve">
+    <value>Wiesenior</value>
+  </data>
+  <data name="Poke_Hoothoot" xml:space="preserve">
+    <value>Hoothoot</value>
+  </data>
+  <data name="Poke_Noctuh" xml:space="preserve">
+    <value>Noctuh</value>
+  </data>
+  <data name="Poke_Ledyba" xml:space="preserve">
+    <value>Ledyba</value>
+  </data>
+  <data name="Poke_Ledian" xml:space="preserve">
+    <value>Ledian</value>
+  </data>
+  <data name="Poke_Webarak" xml:space="preserve">
+    <value>Webarak</value>
+  </data>
+  <data name="Poke_Ariados" xml:space="preserve">
+    <value>Ariados</value>
+  </data>
+  <data name="Poke_Iksbat" xml:space="preserve">
+    <value>Iksbat</value>
+  </data>
+  <data name="Poke_Lampi" xml:space="preserve">
+    <value>Lampi</value>
+  </data>
+  <data name="Poke_Lanturn" xml:space="preserve">
+    <value>Lanturn</value>
+  </data>
+  <data name="Poke_Pichu" xml:space="preserve">
+    <value>Pichu</value>
+  </data>
+  <data name="Poke_Pii" xml:space="preserve">
+    <value>Pii</value>
+  </data>
+  <data name="Poke_Fluffeluff" xml:space="preserve">
+    <value>Fluffeluff</value>
+  </data>
+  <data name="Poke_Togepi" xml:space="preserve">
+    <value>Togepi</value>
+  </data>
+  <data name="Poke_Togetic" xml:space="preserve">
+    <value>Togetic</value>
+  </data>
+  <data name="Poke_Natu" xml:space="preserve">
+    <value>Natu</value>
+  </data>
+  <data name="Poke_Xatu" xml:space="preserve">
+    <value>Xatu</value>
+  </data>
+  <data name="Poke_Voltilamm" xml:space="preserve">
+    <value>Voltilamm</value>
+  </data>
+  <data name="Poke_Waaty" xml:space="preserve">
+    <value>Waaty</value>
+  </data>
+  <data name="Poke_Ampharos" xml:space="preserve">
+    <value>Ampharos</value>
+  </data>
+  <data name="Poke_Blubella" xml:space="preserve">
+    <value>Blubella</value>
+  </data>
+  <data name="Poke_Marill" xml:space="preserve">
+    <value>Marill</value>
+  </data>
+  <data name="Poke_Azumarill" xml:space="preserve">
+    <value>Azumarill</value>
+  </data>
+  <data name="Poke_Mogelbaum" xml:space="preserve">
+    <value>Mogelbaum</value>
+  </data>
+  <data name="Poke_Quaxo" xml:space="preserve">
+    <value>Quaxo</value>
+  </data>
+  <data name="Poke_Hoppspross" xml:space="preserve">
+    <value>Hoppspross</value>
+  </data>
+  <data name="Poke_Hubelupf" xml:space="preserve">
+    <value>Hubelupf</value>
+  </data>
+  <data name="Poke_Papungha" xml:space="preserve">
+    <value>Papungha</value>
+  </data>
+  <data name="Poke_Griffel" xml:space="preserve">
+    <value>Griffel</value>
+  </data>
+  <data name="Poke_Sonnkern" xml:space="preserve">
+    <value>Sonnkern</value>
+  </data>
+  <data name="Poke_Sonnflora" xml:space="preserve">
+    <value>Sonnflora</value>
+  </data>
+  <data name="Poke_Yanma" xml:space="preserve">
+    <value>Yanma</value>
+  </data>
+  <data name="Poke_Felino" xml:space="preserve">
+    <value>Felino</value>
+  </data>
+  <data name="Poke_Morlord" xml:space="preserve">
+    <value>Morlord</value>
+  </data>
+  <data name="Poke_Psiana" xml:space="preserve">
+    <value>Psiana</value>
+  </data>
+  <data name="Poke_Nachtara" xml:space="preserve">
+    <value>Nachtara</value>
+  </data>
+  <data name="Poke_Kramurx" xml:space="preserve">
+    <value>Kramurx</value>
+  </data>
+  <data name="Poke_Laschoking" xml:space="preserve">
+    <value>Laschoking</value>
+  </data>
+  <data name="Poke_Traunfugil" xml:space="preserve">
+    <value>Traunfugil</value>
+  </data>
+  <data name="Poke_Icognito" xml:space="preserve">
+    <value>Icognito</value>
+  </data>
+  <data name="Poke_Woingenau" xml:space="preserve">
+    <value>Woingenau</value>
+  </data>
+  <data name="Poke_Girafarig" xml:space="preserve">
+    <value>Girafarig</value>
+  </data>
+  <data name="Poke_Tannza" xml:space="preserve">
+    <value>Tannza</value>
+  </data>
+  <data name="Poke_Forstellka" xml:space="preserve">
+    <value>Forstellka</value>
+  </data>
+  <data name="Poke_Dummisel" xml:space="preserve">
+    <value>Dummisel</value>
+  </data>
+  <data name="Poke_Skorgla" xml:space="preserve">
+    <value>Skorgla</value>
+  </data>
+  <data name="Poke_Stahlos" xml:space="preserve">
+    <value>Stahlos</value>
+  </data>
+  <data name="Poke_Snubbull" xml:space="preserve">
+    <value>Snubbull</value>
+  </data>
+  <data name="Poke_Granbull" xml:space="preserve">
+    <value>Granbull</value>
+  </data>
+  <data name="Poke_Baldorfish" xml:space="preserve">
+    <value>Baldorfish</value>
+  </data>
+  <data name="Poke_Scherox" xml:space="preserve">
+    <value>Scherox</value>
+  </data>
+  <data name="Poke_Pottrott" xml:space="preserve">
+    <value>Pottrott</value>
+  </data>
+  <data name="Poke_Skaraborn" xml:space="preserve">
+    <value>Skaraborn</value>
+  </data>
+  <data name="Poke_Sniebel" xml:space="preserve">
+    <value>Sniebel</value>
+  </data>
+  <data name="Poke_Teddiursa" xml:space="preserve">
+    <value>Teddiursa</value>
+  </data>
+  <data name="Poke_Ursaring" xml:space="preserve">
+    <value>Ursaring</value>
+  </data>
+  <data name="Poke_Schneckmag" xml:space="preserve">
+    <value>Schneckmag</value>
+  </data>
+  <data name="Poke_Magcargo" xml:space="preserve">
+    <value>Magcargo</value>
+  </data>
+  <data name="Poke_Quiekel" xml:space="preserve">
+    <value>Quiekel</value>
+  </data>
+  <data name="Poke_Keifel" xml:space="preserve">
+    <value>Keifel</value>
+  </data>
+  <data name="Poke_Corasonn" xml:space="preserve">
+    <value>Corasonn</value>
+  </data>
+  <data name="Poke_Remoraid" xml:space="preserve">
+    <value>Remoraid</value>
+  </data>
+  <data name="Poke_Octillery" xml:space="preserve">
+    <value>Octillery</value>
+  </data>
+  <data name="Poke_Botogel" xml:space="preserve">
+    <value>Botogel</value>
+  </data>
+  <data name="Poke_Mantax" xml:space="preserve">
+    <value>Mantax</value>
+  </data>
+  <data name="Poke_Panzaeron" xml:space="preserve">
+    <value>Panzaeron</value>
+  </data>
+  <data name="Poke_Hunduster" xml:space="preserve">
+    <value>Hunduster</value>
+  </data>
+  <data name="Poke_Hundemon" xml:space="preserve">
+    <value>Hundemon</value>
+  </data>
+  <data name="Poke_Seedraking" xml:space="preserve">
+    <value>Seedraking</value>
+  </data>
+  <data name="Poke_Phanpy" xml:space="preserve">
+    <value>Phanpy</value>
+  </data>
+  <data name="Poke_Donphan" xml:space="preserve">
+    <value>Donphan</value>
+  </data>
+  <data name="Poke_Porygon2" xml:space="preserve">
+    <value>Porygon2</value>
+  </data>
+  <data name="Poke_Damhirplex" xml:space="preserve">
+    <value>Damhirplex</value>
+  </data>
+  <data name="Poke_Farbeagle" xml:space="preserve">
+    <value>Farbeagle</value>
+  </data>
+  <data name="Poke_Rabauz" xml:space="preserve">
+    <value>Rabauz</value>
+  </data>
+  <data name="Poke_Kapoera" xml:space="preserve">
+    <value>Kapoera</value>
+  </data>
+  <data name="Poke_Kussilla" xml:space="preserve">
+    <value>Kussilla</value>
+  </data>
+  <data name="Poke_Elekid" xml:space="preserve">
+    <value>Elekid</value>
+  </data>
+  <data name="Poke_Magby" xml:space="preserve">
+    <value>Magby</value>
+  </data>
+  <data name="Poke_Miltank" xml:space="preserve">
+    <value>Miltank</value>
+  </data>
+  <data name="Poke_Heiteira" xml:space="preserve">
+    <value>Heiteira</value>
+  </data>
+  <data name="Poke_Raikou" xml:space="preserve">
+    <value>Raikou</value>
+  </data>
+  <data name="Poke_Entei" xml:space="preserve">
+    <value>Entei</value>
+  </data>
+  <data name="Poke_Suicune" xml:space="preserve">
+    <value>Suicune</value>
+  </data>
+  <data name="Poke_Larvitar" xml:space="preserve">
+    <value>Larvitar</value>
+  </data>
+  <data name="Poke_Pupitar" xml:space="preserve">
+    <value>Pupitar</value>
+  </data>
+  <data name="Poke_Despotar" xml:space="preserve">
+    <value>Despotar</value>
+  </data>
+  <data name="Poke_Lugia" xml:space="preserve">
+    <value>Lugia</value>
+  </data>
+  <data name="Poke_Ho_Oh" xml:space="preserve">
+    <value>Ho-Oh</value>
+  </data>
+  <data name="Poke_Celebi" xml:space="preserve">
+    <value>Celebi</value>
+  </data>
+  <data name="Poke_Geckarbor" xml:space="preserve">
+    <value>Geckarbor</value>
+  </data>
+  <data name="Poke_Reptain" xml:space="preserve">
+    <value>Reptain</value>
+  </data>
+  <data name="Poke_Gewaldro" xml:space="preserve">
+    <value>Gewaldro</value>
+  </data>
+  <data name="Poke_Flemmli" xml:space="preserve">
+    <value>Flemmli</value>
+  </data>
+  <data name="Poke_Jungglut" xml:space="preserve">
+    <value>Jungglut</value>
+  </data>
+  <data name="Poke_Lohgock" xml:space="preserve">
+    <value>Lohgock</value>
+  </data>
+  <data name="Poke_Hydropi" xml:space="preserve">
+    <value>Hydropi</value>
+  </data>
+  <data name="Poke_Moorabbel" xml:space="preserve">
+    <value>Moorabbel</value>
+  </data>
+  <data name="Poke_Sumpex" xml:space="preserve">
+    <value>Sumpex</value>
+  </data>
+  <data name="Poke_Fiffyen" xml:space="preserve">
+    <value>Fiffyen</value>
+  </data>
+  <data name="Poke_Magnayen" xml:space="preserve">
+    <value>Magnayen</value>
+  </data>
+  <data name="Poke_Zigzachs" xml:space="preserve">
+    <value>Zigzachs</value>
+  </data>
+  <data name="Poke_Geradaks" xml:space="preserve">
+    <value>Geradaks</value>
+  </data>
+  <data name="Poke_Waumpel" xml:space="preserve">
+    <value>Waumpel</value>
+  </data>
+  <data name="Poke_Schaloko" xml:space="preserve">
+    <value>Schaloko</value>
+  </data>
+  <data name="Poke_Papinella" xml:space="preserve">
+    <value>Papinella</value>
+  </data>
+  <data name="Poke_Panekon" xml:space="preserve">
+    <value>Panekon</value>
+  </data>
+  <data name="Poke_Pudox" xml:space="preserve">
+    <value>Pudox</value>
+  </data>
+  <data name="Poke_Loturzel" xml:space="preserve">
+    <value>Loturzel</value>
+  </data>
+  <data name="Poke_Lombrero" xml:space="preserve">
+    <value>Lombrero</value>
+  </data>
+  <data name="Poke_Kappalores" xml:space="preserve">
+    <value>Kappalores</value>
+  </data>
+  <data name="Poke_Samurzel" xml:space="preserve">
+    <value>Samurzel</value>
+  </data>
+  <data name="Poke_Blanas" xml:space="preserve">
+    <value>Blanas</value>
+  </data>
+  <data name="Poke_Tengulist" xml:space="preserve">
+    <value>Tengulist</value>
+  </data>
+  <data name="Poke_Schwalbini" xml:space="preserve">
+    <value>Schwalbini</value>
+  </data>
+  <data name="Poke_Schwalboss" xml:space="preserve">
+    <value>Schwalboss</value>
+  </data>
+  <data name="Poke_Wingull" xml:space="preserve">
+    <value>Wingull</value>
+  </data>
+  <data name="Poke_Pelipper" xml:space="preserve">
+    <value>Pelipper</value>
+  </data>
+  <data name="Poke_Trasla" xml:space="preserve">
+    <value>Trasla</value>
+  </data>
+  <data name="Poke_Kirlia" xml:space="preserve">
+    <value>Kirlia</value>
+  </data>
+  <data name="Poke_Guardevoir" xml:space="preserve">
+    <value>Guardevoir</value>
+  </data>
+  <data name="Poke_Gehweiher" xml:space="preserve">
+    <value>Gehweiher</value>
+  </data>
+  <data name="Poke_Maskeregen" xml:space="preserve">
+    <value>Maskeregen</value>
+  </data>
+  <data name="Poke_Knilz" xml:space="preserve">
+    <value>Knilz</value>
+  </data>
+  <data name="Poke_Kapilz" xml:space="preserve">
+    <value>Kapilz</value>
+  </data>
+  <data name="Poke_Bummelz" xml:space="preserve">
+    <value>Bummelz</value>
+  </data>
+  <data name="Poke_Muntier" xml:space="preserve">
+    <value>Muntier</value>
+  </data>
+  <data name="Poke_Letarking" xml:space="preserve">
+    <value>Letarking</value>
+  </data>
+  <data name="Poke_Nincada" xml:space="preserve">
+    <value>Nincada</value>
+  </data>
+  <data name="Poke_Ninjask" xml:space="preserve">
+    <value>Ninjask</value>
+  </data>
+  <data name="Poke_Ninjatom" xml:space="preserve">
+    <value>Ninjatom</value>
+  </data>
+  <data name="Poke_Flurmel" xml:space="preserve">
+    <value>Flurmel</value>
+  </data>
+  <data name="Poke_Krakeelo" xml:space="preserve">
+    <value>Krakeelo</value>
+  </data>
+  <data name="Poke_Krawumms" xml:space="preserve">
+    <value>Krawumms</value>
+  </data>
+  <data name="Poke_Makuhita" xml:space="preserve">
+    <value>Makuhita</value>
+  </data>
+  <data name="Poke_Hariyama" xml:space="preserve">
+    <value>Hariyama</value>
+  </data>
+  <data name="Poke_Azurill" xml:space="preserve">
+    <value>Azurill</value>
+  </data>
+  <data name="Poke_Nasgnet" xml:space="preserve">
+    <value>Nasgnet</value>
+  </data>
+  <data name="Poke_Eneco" xml:space="preserve">
+    <value>Eneco</value>
+  </data>
+  <data name="Poke_Enekoro" xml:space="preserve">
+    <value>Enekoro</value>
+  </data>
+  <data name="Poke_Zobiris" xml:space="preserve">
+    <value>Zobiris</value>
+  </data>
+  <data name="Poke_Flunkifer" xml:space="preserve">
+    <value>Flunkifer</value>
+  </data>
+  <data name="Poke_Stollunior" xml:space="preserve">
+    <value>Stollunior</value>
+  </data>
+  <data name="Poke_Stollrak" xml:space="preserve">
+    <value>Stollrak</value>
+  </data>
+  <data name="Poke_Stolloss" xml:space="preserve">
+    <value>Stolloss</value>
+  </data>
+  <data name="Poke_Meditie" xml:space="preserve">
+    <value>Meditie</value>
+  </data>
+  <data name="Poke_Meditalis" xml:space="preserve">
+    <value>Meditalis</value>
+  </data>
+  <data name="Poke_Frizelbliz" xml:space="preserve">
+    <value>Frizelbliz</value>
+  </data>
+  <data name="Poke_Voltenso" xml:space="preserve">
+    <value>Voltenso</value>
+  </data>
+  <data name="Poke_Plusle" xml:space="preserve">
+    <value>Plusle</value>
+  </data>
+  <data name="Poke_Minun" xml:space="preserve">
+    <value>Minun</value>
+  </data>
+  <data name="Poke_Volbeat" xml:space="preserve">
+    <value>Volbeat</value>
+  </data>
+  <data name="Poke_Illumise" xml:space="preserve">
+    <value>Illumise</value>
+  </data>
+  <data name="Poke_Roselia" xml:space="preserve">
+    <value>Roselia</value>
+  </data>
+  <data name="Poke_Schluppuck" xml:space="preserve">
+    <value>Schluppuck</value>
+  </data>
+  <data name="Poke_Schlukwech" xml:space="preserve">
+    <value>Schlukwech</value>
+  </data>
+  <data name="Poke_Kanivanha" xml:space="preserve">
+    <value>Kanivanha</value>
+  </data>
+  <data name="Poke_Tohaido" xml:space="preserve">
+    <value>Tohaido</value>
+  </data>
+  <data name="Poke_Wailmer" xml:space="preserve">
+    <value>Wailmer</value>
+  </data>
+  <data name="Poke_Wailord" xml:space="preserve">
+    <value>Wailord</value>
+  </data>
+  <data name="Poke_Camaub" xml:space="preserve">
+    <value>Camaub</value>
+  </data>
+  <data name="Poke_Camerupt" xml:space="preserve">
+    <value>Camerupt</value>
+  </data>
+  <data name="Poke_Qurtel" xml:space="preserve">
+    <value>Qurtel</value>
+  </data>
+  <data name="Poke_Spoink" xml:space="preserve">
+    <value>Spoink</value>
+  </data>
+  <data name="Poke_Groink" xml:space="preserve">
+    <value>Groink</value>
+  </data>
+  <data name="Poke_Pandir" xml:space="preserve">
+    <value>Pandir</value>
+  </data>
+  <data name="Poke_Knacklion" xml:space="preserve">
+    <value>Knacklion</value>
+  </data>
+  <data name="Poke_Vibrava" xml:space="preserve">
+    <value>Vibrava</value>
+  </data>
+  <data name="Poke_Libelldra" xml:space="preserve">
+    <value>Libelldra</value>
+  </data>
+  <data name="Poke_Tuska" xml:space="preserve">
+    <value>Tuska</value>
+  </data>
+  <data name="Poke_Noktuska" xml:space="preserve">
+    <value>Noktuska</value>
+  </data>
+  <data name="Poke_Wablu" xml:space="preserve">
+    <value>Wablu</value>
+  </data>
+  <data name="Poke_Altaria" xml:space="preserve">
+    <value>Altaria</value>
+  </data>
+  <data name="Poke_Sengo" xml:space="preserve">
+    <value>Sengo</value>
+  </data>
+  <data name="Poke_Vipitis" xml:space="preserve">
+    <value>Vipitis</value>
+  </data>
+  <data name="Poke_Lunastein" xml:space="preserve">
+    <value>Lunastein</value>
+  </data>
+  <data name="Poke_Sonnfel" xml:space="preserve">
+    <value>Sonnfel</value>
+  </data>
+  <data name="Poke_Schmerbe" xml:space="preserve">
+    <value>Schmerbe</value>
+  </data>
+  <data name="Poke_Welsar" xml:space="preserve">
+    <value>Welsar</value>
+  </data>
+  <data name="Poke_Krebscorps" xml:space="preserve">
+    <value>Krebscorps</value>
+  </data>
+  <data name="Poke_Krebutack" xml:space="preserve">
+    <value>Krebutack</value>
+  </data>
+  <data name="Poke_Puppance" xml:space="preserve">
+    <value>Puppance</value>
+  </data>
+  <data name="Poke_Lepumentas" xml:space="preserve">
+    <value>Lepumentas</value>
+  </data>
+  <data name="Poke_Liliep" xml:space="preserve">
+    <value>Liliep</value>
+  </data>
+  <data name="Poke_Wielie" xml:space="preserve">
+    <value>Wielie</value>
+  </data>
+  <data name="Poke_Anorith" xml:space="preserve">
+    <value>Anorith</value>
+  </data>
+  <data name="Poke_Armaldo" xml:space="preserve">
+    <value>Armaldo</value>
+  </data>
+  <data name="Poke_Barschwa" xml:space="preserve">
+    <value>Barschwa</value>
+  </data>
+  <data name="Poke_Milotic" xml:space="preserve">
+    <value>Milotic</value>
+  </data>
+  <data name="Poke_Formeo" xml:space="preserve">
+    <value>Formeo</value>
+  </data>
+  <data name="Poke_Kecleon" xml:space="preserve">
+    <value>Kecleon</value>
+  </data>
+  <data name="Poke_Shuppet" xml:space="preserve">
+    <value>Shuppet</value>
+  </data>
+  <data name="Poke_Banette" xml:space="preserve">
+    <value>Banette</value>
+  </data>
+  <data name="Poke_Zwirrlicht" xml:space="preserve">
+    <value>Zwirrlicht</value>
+  </data>
+  <data name="Poke_Zwirrklop" xml:space="preserve">
+    <value>Zwirrklop</value>
+  </data>
+  <data name="Poke_Tropius" xml:space="preserve">
+    <value>Tropius</value>
+  </data>
+  <data name="Poke_Palimpalim" xml:space="preserve">
+    <value>Palimpalim</value>
+  </data>
+  <data name="Poke_Absol" xml:space="preserve">
+    <value>Absol</value>
+  </data>
+  <data name="Poke_Isso" xml:space="preserve">
+    <value>Isso</value>
+  </data>
+  <data name="Poke_Schneppke" xml:space="preserve">
+    <value>Schneppke</value>
+  </data>
+  <data name="Poke_Firnontor" xml:space="preserve">
+    <value>Firnontor</value>
+  </data>
+  <data name="Poke_Seemops" xml:space="preserve">
+    <value>Seemops</value>
+  </data>
+  <data name="Poke_Seejong" xml:space="preserve">
+    <value>Seejong</value>
+  </data>
+  <data name="Poke_Walraisa" xml:space="preserve">
+    <value>Walraisa</value>
+  </data>
+  <data name="Poke_Perlu" xml:space="preserve">
+    <value>Perlu</value>
+  </data>
+  <data name="Poke_Aalabyss" xml:space="preserve">
+    <value>Aalabyss</value>
+  </data>
+  <data name="Poke_Saganabyss" xml:space="preserve">
+    <value>Saganabyss</value>
+  </data>
+  <data name="Poke_Relicanth" xml:space="preserve">
+    <value>Relicanth</value>
+  </data>
+  <data name="Poke_Liebiskus" xml:space="preserve">
+    <value>Liebiskus</value>
+  </data>
+  <data name="Poke_Kindwurm" xml:space="preserve">
+    <value>Kindwurm</value>
+  </data>
+  <data name="Poke_Draschel" xml:space="preserve">
+    <value>Draschel</value>
+  </data>
+  <data name="Poke_Brutalanda" xml:space="preserve">
+    <value>Brutalanda</value>
+  </data>
+  <data name="Poke_Tanhel" xml:space="preserve">
+    <value>Tanhel</value>
+  </data>
+  <data name="Poke_Metang" xml:space="preserve">
+    <value>Metang</value>
+  </data>
+  <data name="Poke_Metagross" xml:space="preserve">
+    <value>Metagross</value>
+  </data>
+  <data name="Poke_Regirock" xml:space="preserve">
+    <value>Regirock</value>
+  </data>
+  <data name="Poke_Regice" xml:space="preserve">
+    <value>Regice</value>
+  </data>
+  <data name="Poke_Registeel" xml:space="preserve">
+    <value>Registeel</value>
+  </data>
+  <data name="Poke_Latias" xml:space="preserve">
+    <value>Latias</value>
+  </data>
+  <data name="Poke_Latios" xml:space="preserve">
+    <value>Latios</value>
+  </data>
+  <data name="Poke_Kyogre" xml:space="preserve">
+    <value>Kyogre</value>
+  </data>
+  <data name="Poke_Groudon" xml:space="preserve">
+    <value>Groudon</value>
+  </data>
+  <data name="Poke_Rayquaza" xml:space="preserve">
+    <value>Rayquaza</value>
+  </data>
+  <data name="Poke_Jirachi" xml:space="preserve">
+    <value>Jirachi</value>
+  </data>
+  <data name="Poke_Deoxys" xml:space="preserve">
+    <value>Deoxys</value>
+  </data>
+  <data name="Poke_Chelast" xml:space="preserve">
+    <value>Chelast</value>
+  </data>
+  <data name="Poke_Chelcarain" xml:space="preserve">
+    <value>Chelcarain</value>
+  </data>
+  <data name="Poke_Chelterrar" xml:space="preserve">
+    <value>Chelterrar</value>
+  </data>
+  <data name="Poke_Panflam" xml:space="preserve">
+    <value>Panflam</value>
+  </data>
+  <data name="Poke_Panpyro" xml:space="preserve">
+    <value>Panpyro</value>
+  </data>
+  <data name="Poke_Panferno" xml:space="preserve">
+    <value>Panferno</value>
+  </data>
+  <data name="Poke_Plinfa" xml:space="preserve">
+    <value>Plinfa</value>
+  </data>
+  <data name="Poke_Pliprin" xml:space="preserve">
+    <value>Pliprin</value>
+  </data>
+  <data name="Poke_Impoleon" xml:space="preserve">
+    <value>Impoleon</value>
+  </data>
+  <data name="Poke_Staralili" xml:space="preserve">
+    <value>Staralili</value>
+  </data>
+  <data name="Poke_Staravia" xml:space="preserve">
+    <value>Staravia</value>
+  </data>
+  <data name="Poke_Staraptor" xml:space="preserve">
+    <value>Staraptor</value>
+  </data>
+  <data name="Poke_Bidiza" xml:space="preserve">
+    <value>Bidiza</value>
+  </data>
+  <data name="Poke_Bidifas" xml:space="preserve">
+    <value>Bidifas</value>
+  </data>
+  <data name="Poke_Zirpurze" xml:space="preserve">
+    <value>Zirpurze</value>
+  </data>
+  <data name="Poke_Zirpeise" xml:space="preserve">
+    <value>Zirpeise</value>
+  </data>
+  <data name="Poke_Sheinux" xml:space="preserve">
+    <value>Sheinux</value>
+  </data>
+  <data name="Poke_Luxio" xml:space="preserve">
+    <value>Luxio</value>
+  </data>
+  <data name="Poke_Luxtra" xml:space="preserve">
+    <value>Luxtra</value>
+  </data>
+  <data name="Poke_Knospi" xml:space="preserve">
+    <value>Knospi</value>
+  </data>
+  <data name="Poke_Roserade" xml:space="preserve">
+    <value>Roserade</value>
+  </data>
+  <data name="Poke_Koknodon" xml:space="preserve">
+    <value>Koknodon</value>
+  </data>
+  <data name="Poke_Rameidon" xml:space="preserve">
+    <value>Rameidon</value>
+  </data>
+  <data name="Poke_Schilterus" xml:space="preserve">
+    <value>Schilterus</value>
+  </data>
+  <data name="Poke_Bollterus" xml:space="preserve">
+    <value>Bollterus</value>
+  </data>
+  <data name="Poke_Burmy" xml:space="preserve">
+    <value>Burmy</value>
+  </data>
+  <data name="Poke_Burmadame" xml:space="preserve">
+    <value>Burmadame</value>
+  </data>
+  <data name="Poke_Moterpel" xml:space="preserve">
+    <value>Moterpel</value>
+  </data>
+  <data name="Poke_Wadribie" xml:space="preserve">
+    <value>Wadribie</value>
+  </data>
+  <data name="Poke_Honweisel" xml:space="preserve">
+    <value>Honweisel</value>
+  </data>
+  <data name="Poke_Pachirisu" xml:space="preserve">
+    <value>Pachirisu</value>
+  </data>
+  <data name="Poke_Bamelin" xml:space="preserve">
+    <value>Bamelin</value>
+  </data>
+  <data name="Poke_Bojelin" xml:space="preserve">
+    <value>Bojelin</value>
+  </data>
+  <data name="Poke_Kikugi" xml:space="preserve">
+    <value>Kikugi</value>
+  </data>
+  <data name="Poke_Kinoso" xml:space="preserve">
+    <value>Kinoso</value>
+  </data>
+  <data name="Poke_Schalellos" xml:space="preserve">
+    <value>Schalellos</value>
+  </data>
+  <data name="Poke_Gastrodon" xml:space="preserve">
+    <value>Gastrodon</value>
+  </data>
+  <data name="Poke_Ambidiffel" xml:space="preserve">
+    <value>Ambidiffel</value>
+  </data>
+  <data name="Poke_Driftlon" xml:space="preserve">
+    <value>Driftlon</value>
+  </data>
+  <data name="Poke_Drifzepeli" xml:space="preserve">
+    <value>Drifzepeli</value>
+  </data>
+  <data name="Poke_Haspiror" xml:space="preserve">
+    <value>Haspiror</value>
+  </data>
+  <data name="Poke_Schlapor" xml:space="preserve">
+    <value>Schlapor</value>
+  </data>
+  <data name="Poke_Traunmagil" xml:space="preserve">
+    <value>Traunmagil</value>
+  </data>
+  <data name="Poke_Kramshef" xml:space="preserve">
+    <value>Kramshef</value>
+  </data>
+  <data name="Poke_Charmian" xml:space="preserve">
+    <value>Charmian</value>
+  </data>
+  <data name="Poke_Shnurgarst" xml:space="preserve">
+    <value>Shnurgarst</value>
+  </data>
+  <data name="Poke_Klingplim" xml:space="preserve">
+    <value>Klingplim</value>
+  </data>
+  <data name="Poke_Skunkapuh" xml:space="preserve">
+    <value>Skunkapuh</value>
+  </data>
+  <data name="Poke_Skuntank" xml:space="preserve">
+    <value>Skuntank</value>
+  </data>
+  <data name="Poke_Bronzel" xml:space="preserve">
+    <value>Bronzel</value>
+  </data>
+  <data name="Poke_Bronzong" xml:space="preserve">
+    <value>Bronzong</value>
+  </data>
+  <data name="Poke_Mobai" xml:space="preserve">
+    <value>Mobai</value>
+  </data>
+  <data name="Poke_Pantimimi" xml:space="preserve">
+    <value>Pantimimi</value>
+  </data>
+  <data name="Poke_Wonneira" xml:space="preserve">
+    <value>Wonneira</value>
+  </data>
+  <data name="Poke_Plaudagei" xml:space="preserve">
+    <value>Plaudagei</value>
+  </data>
+  <data name="Poke_Kryppuk" xml:space="preserve">
+    <value>Kryppuk</value>
+  </data>
+  <data name="Poke_Kaumalat" xml:space="preserve">
+    <value>Kaumalat</value>
+  </data>
+  <data name="Poke_Knarksel" xml:space="preserve">
+    <value>Knarksel</value>
+  </data>
+  <data name="Poke_Knakrack" xml:space="preserve">
+    <value>Knakrack</value>
+  </data>
+  <data name="Poke_Mampfaxo" xml:space="preserve">
+    <value>Mampfaxo</value>
+  </data>
+  <data name="Poke_Riolu" xml:space="preserve">
+    <value>Riolu</value>
+  </data>
+  <data name="Poke_Lucario" xml:space="preserve">
+    <value>Lucario</value>
+  </data>
+  <data name="Poke_Hippopotas" xml:space="preserve">
+    <value>Hippopotas</value>
+  </data>
+  <data name="Poke_Hippoterus" xml:space="preserve">
+    <value>Hippoterus</value>
+  </data>
+  <data name="Poke_Pionskora" xml:space="preserve">
+    <value>Pionskora</value>
+  </data>
+  <data name="Poke_Piondragi" xml:space="preserve">
+    <value>Piondragi</value>
+  </data>
+  <data name="Poke_Glibunkel" xml:space="preserve">
+    <value>Glibunkel</value>
+  </data>
+  <data name="Poke_Toxiquak" xml:space="preserve">
+    <value>Toxiquak</value>
+  </data>
+  <data name="Poke_Venuflibis" xml:space="preserve">
+    <value>Venuflibis</value>
+  </data>
+  <data name="Poke_Finneon" xml:space="preserve">
+    <value>Finneon</value>
+  </data>
+  <data name="Poke_Lumineon" xml:space="preserve">
+    <value>Lumineon</value>
+  </data>
+  <data name="Poke_Mantirps" xml:space="preserve">
+    <value>Mantirps</value>
+  </data>
+  <data name="Poke_Shnebedeck" xml:space="preserve">
+    <value>Shnebedeck</value>
+  </data>
+  <data name="Poke_Rexblisar" xml:space="preserve">
+    <value>Rexblisar</value>
+  </data>
+  <data name="Poke_Snibunna" xml:space="preserve">
+    <value>Snibunna</value>
+  </data>
+  <data name="Poke_Magnezone" xml:space="preserve">
+    <value>Magnezone</value>
+  </data>
+  <data name="Poke_Schlurplek" xml:space="preserve">
+    <value>Schlurplek</value>
+  </data>
+  <data name="Poke_Rihornior" xml:space="preserve">
+    <value>Rihornior</value>
+  </data>
+  <data name="Poke_Tangoloss" xml:space="preserve">
+    <value>Tangoloss</value>
+  </data>
+  <data name="Poke_Elevoltek" xml:space="preserve">
+    <value>Elevoltek</value>
+  </data>
+  <data name="Poke_Magbrant" xml:space="preserve">
+    <value>Magbrant</value>
+  </data>
+  <data name="Poke_Togekiss" xml:space="preserve">
+    <value>Togekiss</value>
+  </data>
+  <data name="Poke_Yanmega" xml:space="preserve">
+    <value>Yanmega</value>
+  </data>
+  <data name="Poke_Folipurba" xml:space="preserve">
+    <value>Folipurba</value>
+  </data>
+  <data name="Poke_Glaziola" xml:space="preserve">
+    <value>Glaziola</value>
+  </data>
+  <data name="Poke_Skorgro" xml:space="preserve">
+    <value>Skorgro</value>
+  </data>
+  <data name="Poke_Mamutel" xml:space="preserve">
+    <value>Mamutel</value>
+  </data>
+  <data name="Poke_PorygonZ" xml:space="preserve">
+    <value>Porygon-Z</value>
+  </data>
+  <data name="Poke_Galagladi" xml:space="preserve">
+    <value>Galagladi</value>
+  </data>
+  <data name="Poke_Voluminas" xml:space="preserve">
+    <value>Voluminas</value>
+  </data>
+  <data name="Poke_Zwirrfinst" xml:space="preserve">
+    <value>Zwirrfinst</value>
+  </data>
+  <data name="Poke_Frosdedje" xml:space="preserve">
+    <value>Frosdedje</value>
+  </data>
+  <data name="Poke_Rotom" xml:space="preserve">
+    <value>Rotom</value>
+  </data>
+  <data name="Poke_Selfe" xml:space="preserve">
+    <value>Selfe</value>
+  </data>
+  <data name="Poke_Vesprit" xml:space="preserve">
+    <value>Vesprit</value>
+  </data>
+  <data name="Poke_Tobutz" xml:space="preserve">
+    <value>Tobutz</value>
+  </data>
+  <data name="Poke_Dialga" xml:space="preserve">
+    <value>Dialga</value>
+  </data>
+  <data name="Poke_Palkia" xml:space="preserve">
+    <value>Palkia</value>
+  </data>
+  <data name="Poke_Heatran" xml:space="preserve">
+    <value>Heatran</value>
+  </data>
+  <data name="Poke_Regigigas" xml:space="preserve">
+    <value>Regigigas</value>
+  </data>
+  <data name="Poke_Giratina" xml:space="preserve">
+    <value>Giratina</value>
+  </data>
+  <data name="Poke_Cresselia" xml:space="preserve">
+    <value>Cresselia</value>
+  </data>
+  <data name="Poke_Phione" xml:space="preserve">
+    <value>Phione</value>
+  </data>
+  <data name="Poke_Manaphy" xml:space="preserve">
+    <value>Manaphy</value>
+  </data>
+  <data name="Poke_Darkrai" xml:space="preserve">
+    <value>Darkrai</value>
+  </data>
+  <data name="Poke_Shaymin" xml:space="preserve">
+    <value>Shaymin</value>
+  </data>
+  <data name="Poke_Arceus" xml:space="preserve">
+    <value>Arceus</value>
+  </data>
+  <data name="Poke_Victini" xml:space="preserve">
+    <value>Victini</value>
+  </data>
+  <data name="Poke_Serpifeu" xml:space="preserve">
+    <value>Serpifeu</value>
+  </data>
+  <data name="Poke_Efoserp" xml:space="preserve">
+    <value>Efoserp</value>
+  </data>
+  <data name="Poke_Serpiroyal" xml:space="preserve">
+    <value>Serpiroyal</value>
+  </data>
+  <data name="Poke_Floink" xml:space="preserve">
+    <value>Floink</value>
+  </data>
+  <data name="Poke_Ferkokel" xml:space="preserve">
+    <value>Ferkokel</value>
+  </data>
+  <data name="Poke_Flambirex" xml:space="preserve">
+    <value>Flambirex</value>
+  </data>
+  <data name="Poke_Ottaro" xml:space="preserve">
+    <value>Ottaro</value>
+  </data>
+  <data name="Poke_Zwottronin" xml:space="preserve">
+    <value>Zwottronin</value>
+  </data>
+  <data name="Poke_Admurai" xml:space="preserve">
+    <value>Admurai</value>
+  </data>
+  <data name="Poke_Nagelotz" xml:space="preserve">
+    <value>Nagelotz</value>
+  </data>
+  <data name="Poke_Kukmarda" xml:space="preserve">
+    <value>Kukmarda</value>
+  </data>
+  <data name="Poke_Yorkleff" xml:space="preserve">
+    <value>Yorkleff</value>
+  </data>
+  <data name="Poke_Terribark" xml:space="preserve">
+    <value>Terribark</value>
+  </data>
+  <data name="Poke_Bissbark" xml:space="preserve">
+    <value>Bissbark</value>
+  </data>
+  <data name="Poke_Felilou" xml:space="preserve">
+    <value>Felilou</value>
+  </data>
+  <data name="Poke_Kleoparda" xml:space="preserve">
+    <value>Kleoparda</value>
+  </data>
+  <data name="Poke_Vegimak" xml:space="preserve">
+    <value>Vegimak</value>
+  </data>
+  <data name="Poke_Vegichita" xml:space="preserve">
+    <value>Vegichita</value>
+  </data>
+  <data name="Poke_Grillmak" xml:space="preserve">
+    <value>Grillmak</value>
+  </data>
+  <data name="Poke_Grillchita" xml:space="preserve">
+    <value>Grillchita</value>
+  </data>
+  <data name="Poke_Sodamak" xml:space="preserve">
+    <value>Sodamak</value>
+  </data>
+  <data name="Poke_Sodachita" xml:space="preserve">
+    <value>Sodachita</value>
+  </data>
+  <data name="Poke_Somniam" xml:space="preserve">
+    <value>Somniam</value>
+  </data>
+  <data name="Poke_Somnivora" xml:space="preserve">
+    <value>Somnivora</value>
+  </data>
+  <data name="Poke_Dusselgurr" xml:space="preserve">
+    <value>Dusselgurr</value>
+  </data>
+  <data name="Poke_Navitaub" xml:space="preserve">
+    <value>Navitaub</value>
+  </data>
+  <data name="Poke_Fasasnob" xml:space="preserve">
+    <value>Fasasnob</value>
+  </data>
+  <data name="Poke_Elezeba" xml:space="preserve">
+    <value>Elezeba</value>
+  </data>
+  <data name="Poke_Zebritz" xml:space="preserve">
+    <value>Zebritz</value>
+  </data>
+  <data name="Poke_Kiesling" xml:space="preserve">
+    <value>Kiesling</value>
+  </data>
+  <data name="Poke_Sedimantur" xml:space="preserve">
+    <value>Sedimantur</value>
+  </data>
+  <data name="Poke_Brockoloss" xml:space="preserve">
+    <value>Brockoloss</value>
+  </data>
+  <data name="Poke_Fleknoil" xml:space="preserve">
+    <value>Fleknoil</value>
+  </data>
+  <data name="Poke_Fletiamo" xml:space="preserve">
+    <value>Fletiamo</value>
+  </data>
+  <data name="Poke_Rotomurf" xml:space="preserve">
+    <value>Rotomurf</value>
+  </data>
+  <data name="Poke_Stalobor" xml:space="preserve">
+    <value>Stalobor</value>
+  </data>
+  <data name="Poke_Ohrdoch" xml:space="preserve">
+    <value>Ohrdoch</value>
+  </data>
+  <data name="Poke_Praktibalk" xml:space="preserve">
+    <value>Praktibalk</value>
+  </data>
+  <data name="Poke_Strepoli" xml:space="preserve">
+    <value>Strepoli</value>
+  </data>
+  <data name="Poke_Meistagrif" xml:space="preserve">
+    <value>Meistagrif</value>
+  </data>
+  <data name="Poke_Schallquap" xml:space="preserve">
+    <value>Schallquap</value>
+  </data>
+  <data name="Poke_Mebrana" xml:space="preserve">
+    <value>Mebrana</value>
+  </data>
+  <data name="Poke_Branawarz" xml:space="preserve">
+    <value>Branawarz</value>
+  </data>
+  <data name="Poke_Jiutesto" xml:space="preserve">
+    <value>Jiutesto</value>
+  </data>
+  <data name="Poke_Karadonis" xml:space="preserve">
+    <value>Karadonis</value>
+  </data>
+  <data name="Poke_Strawickl" xml:space="preserve">
+    <value>Strawickl</value>
+  </data>
+  <data name="Poke_Folikon" xml:space="preserve">
+    <value>Folikon</value>
+  </data>
+  <data name="Poke_Matrifol" xml:space="preserve">
+    <value>Matrifol</value>
+  </data>
+  <data name="Poke_Toxiped" xml:space="preserve">
+    <value>Toxiped</value>
+  </data>
+  <data name="Poke_Rollum" xml:space="preserve">
+    <value>Rollum</value>
+  </data>
+  <data name="Poke_Cerapendra" xml:space="preserve">
+    <value>Cerapendra</value>
+  </data>
+  <data name="Poke_Waumboll" xml:space="preserve">
+    <value>Waumboll</value>
+  </data>
+  <data name="Poke_Elfun" xml:space="preserve">
+    <value>Elfun</value>
+  </data>
+  <data name="Poke_Lilminip" xml:space="preserve">
+    <value>Lilminip</value>
+  </data>
+  <data name="Poke_Dressella" xml:space="preserve">
+    <value>Dressella</value>
+  </data>
+  <data name="Poke_Barschuft" xml:space="preserve">
+    <value>Barschuft</value>
+  </data>
+  <data name="Poke_Ganovil" xml:space="preserve">
+    <value>Ganovil</value>
+  </data>
+  <data name="Poke_Rokkaiman" xml:space="preserve">
+    <value>Rokkaiman</value>
+  </data>
+  <data name="Poke_Rabigator" xml:space="preserve">
+    <value>Rabigator</value>
+  </data>
+  <data name="Poke_Flampion" xml:space="preserve">
+    <value>Flampion</value>
+  </data>
+  <data name="Poke_Flampivian" xml:space="preserve">
+    <value>Flampivian</value>
+  </data>
+  <data name="Poke_Maracamba" xml:space="preserve">
+    <value>Maracamba</value>
+  </data>
+  <data name="Poke_Lithomith" xml:space="preserve">
+    <value>Lithomith</value>
+  </data>
+  <data name="Poke_Castellith" xml:space="preserve">
+    <value>Castellith</value>
+  </data>
+  <data name="Poke_Zurrokex" xml:space="preserve">
+    <value>Zurrokex</value>
+  </data>
+  <data name="Poke_Irokex" xml:space="preserve">
+    <value>Irokex</value>
+  </data>
+  <data name="Poke_Symvolara" xml:space="preserve">
+    <value>Symvolara</value>
+  </data>
+  <data name="Poke_Makabaja" xml:space="preserve">
+    <value>Makabaja</value>
+  </data>
+  <data name="Poke_Echnatoll" xml:space="preserve">
+    <value>Echnatoll</value>
+  </data>
+  <data name="Poke_Galapaflos" xml:space="preserve">
+    <value>Galapaflos</value>
+  </data>
+  <data name="Poke_Karippas" xml:space="preserve">
+    <value>Karippas</value>
+  </data>
+  <data name="Poke_Flapteryx" xml:space="preserve">
+    <value>Flapteryx</value>
+  </data>
+  <data name="Poke_Aeropteryx" xml:space="preserve">
+    <value>Aeropteryx</value>
+  </data>
+  <data name="Poke_Unratuetox" xml:space="preserve">
+    <value>Unratütox</value>
+  </data>
+  <data name="Poke_Deponitox" xml:space="preserve">
+    <value>Deponitox</value>
+  </data>
+  <data name="Poke_Zorua" xml:space="preserve">
+    <value>Zorua</value>
+  </data>
+  <data name="Poke_Zoroark" xml:space="preserve">
+    <value>Zoroark</value>
+  </data>
+  <data name="Poke_Picochilla" xml:space="preserve">
+    <value>Picochilla</value>
+  </data>
+  <data name="Poke_Chillabell" xml:space="preserve">
+    <value>Chillabell</value>
+  </data>
+  <data name="Poke_Mollimorba" xml:space="preserve">
+    <value>Mollimorba</value>
+  </data>
+  <data name="Poke_Hypnomorba" xml:space="preserve">
+    <value>Hypnomorba</value>
+  </data>
+  <data name="Poke_Morbitesse" xml:space="preserve">
+    <value>Morbitesse</value>
+  </data>
+  <data name="Poke_Monozyto" xml:space="preserve">
+    <value>Monozyto</value>
+  </data>
+  <data name="Poke_Mitodos" xml:space="preserve">
+    <value>Mitodos</value>
+  </data>
+  <data name="Poke_Zytomega" xml:space="preserve">
+    <value>Zytomega</value>
+  </data>
+  <data name="Poke_Piccolente" xml:space="preserve">
+    <value>Piccolente</value>
+  </data>
+  <data name="Poke_Swaroness" xml:space="preserve">
+    <value>Swaroness</value>
+  </data>
+  <data name="Poke_Gelatini" xml:space="preserve">
+    <value>Gelatini</value>
+  </data>
+  <data name="Poke_Gelatroppo" xml:space="preserve">
+    <value>Gelatroppo</value>
+  </data>
+  <data name="Poke_Gelatwino" xml:space="preserve">
+    <value>Gelatwino</value>
+  </data>
+  <data name="Poke_Sesokitz" xml:space="preserve">
+    <value>Sesokitz</value>
+  </data>
+  <data name="Poke_Kronjuwild" xml:space="preserve">
+    <value>Kronjuwild</value>
+  </data>
+  <data name="Poke_Emolga" xml:space="preserve">
+    <value>Emolga</value>
+  </data>
+  <data name="Poke_Laukaps" xml:space="preserve">
+    <value>Laukaps</value>
+  </data>
+  <data name="Poke_Cavalanzas" xml:space="preserve">
+    <value>Cavalanzas</value>
+  </data>
+  <data name="Poke_Tarnpignon" xml:space="preserve">
+    <value>Tarnpignon</value>
+  </data>
+  <data name="Poke_Hutsassa" xml:space="preserve">
+    <value>Hutsassa</value>
+  </data>
+  <data name="Poke_Quabbel" xml:space="preserve">
+    <value>Quabbel</value>
+  </data>
+  <data name="Poke_Apoquallyp" xml:space="preserve">
+    <value>Apoquallyp</value>
+  </data>
+  <data name="Poke_Mamolida" xml:space="preserve">
+    <value>Mamolida</value>
+  </data>
+  <data name="Poke_Wattzapf" xml:space="preserve">
+    <value>Wattzapf</value>
+  </data>
+  <data name="Poke_Voltula" xml:space="preserve">
+    <value>Voltula</value>
+  </data>
+  <data name="Poke_Kastadur" xml:space="preserve">
+    <value>Kastadur</value>
+  </data>
+  <data name="Poke_Tentantel" xml:space="preserve">
+    <value>Tentantel</value>
+  </data>
+  <data name="Poke_Klikk" xml:space="preserve">
+    <value>Klikk</value>
+  </data>
+  <data name="Poke_Kliklak" xml:space="preserve">
+    <value>Kliklak</value>
+  </data>
+  <data name="Poke_Klikdiklak" xml:space="preserve">
+    <value>Klikdiklak</value>
+  </data>
+  <data name="Poke_Zapplardin" xml:space="preserve">
+    <value>Zapplardin</value>
+  </data>
+  <data name="Poke_Zapplalek" xml:space="preserve">
+    <value>Zapplalek</value>
+  </data>
+  <data name="Poke_Zapplarang" xml:space="preserve">
+    <value>Zapplarang</value>
+  </data>
+  <data name="Poke_Pygraulon" xml:space="preserve">
+    <value>Pygraulon</value>
+  </data>
+  <data name="Poke_Megalon" xml:space="preserve">
+    <value>Megalon</value>
+  </data>
+  <data name="Poke_Lichtel" xml:space="preserve">
+    <value>Lichtel</value>
+  </data>
+  <data name="Poke_Laternecto" xml:space="preserve">
+    <value>Laternecto</value>
+  </data>
+  <data name="Poke_Skelabra" xml:space="preserve">
+    <value>Skelabra</value>
+  </data>
+  <data name="Poke_Milza" xml:space="preserve">
+    <value>Milza</value>
+  </data>
+  <data name="Poke_Sharfax" xml:space="preserve">
+    <value>Sharfax</value>
+  </data>
+  <data name="Poke_Maxax" xml:space="preserve">
+    <value>Maxax</value>
+  </data>
+  <data name="Poke_Petznief" xml:space="preserve">
+    <value>Petznief</value>
+  </data>
+  <data name="Poke_Siberio" xml:space="preserve">
+    <value>Siberio</value>
+  </data>
+  <data name="Poke_Frigometri" xml:space="preserve">
+    <value>Frigometri</value>
+  </data>
+  <data name="Poke_Schnuthelm" xml:space="preserve">
+    <value>Schnuthelm</value>
+  </data>
+  <data name="Poke_Hydragil" xml:space="preserve">
+    <value>Hydragil</value>
+  </data>
+  <data name="Poke_Flunschlik" xml:space="preserve">
+    <value>Flunschlik</value>
+  </data>
+  <data name="Poke_Lin_Fu" xml:space="preserve">
+    <value>Lin-Fu</value>
+  </data>
+  <data name="Poke_Wie_Shu" xml:space="preserve">
+    <value>Wie-Shu</value>
+  </data>
+  <data name="Poke_Shardrago" xml:space="preserve">
+    <value>Shardrago</value>
+  </data>
+  <data name="Poke_Golbit" xml:space="preserve">
+    <value>Golbit</value>
+  </data>
+  <data name="Poke_Golgantes" xml:space="preserve">
+    <value>Golgantes</value>
+  </data>
+  <data name="Poke_Gladiantri" xml:space="preserve">
+    <value>Gladiantri</value>
+  </data>
+  <data name="Poke_Caesurio" xml:space="preserve">
+    <value>Caesurio</value>
+  </data>
+  <data name="Poke_Bisofank" xml:space="preserve">
+    <value>Bisofank</value>
+  </data>
+  <data name="Poke_Geronimatz" xml:space="preserve">
+    <value>Geronimatz</value>
+  </data>
+  <data name="Poke_Washakwil" xml:space="preserve">
+    <value>Washakwil</value>
+  </data>
+  <data name="Poke_Skallyk" xml:space="preserve">
+    <value>Skallyk</value>
+  </data>
+  <data name="Poke_Grypheldis" xml:space="preserve">
+    <value>Grypheldis</value>
+  </data>
+  <data name="Poke_Furnifras" xml:space="preserve">
+    <value>Furnifraß</value>
+  </data>
+  <data name="Poke_Fermicula" xml:space="preserve">
+    <value>Fermicula</value>
+  </data>
+  <data name="Poke_Kapuno" xml:space="preserve">
+    <value>Kapuno</value>
+  </data>
+  <data name="Poke_Duodino" xml:space="preserve">
+    <value>Duodino</value>
+  </data>
+  <data name="Poke_Trikephalo" xml:space="preserve">
+    <value>Trikephalo</value>
+  </data>
+  <data name="Poke_Ignivor" xml:space="preserve">
+    <value>Ignivor</value>
+  </data>
+  <data name="Poke_Ramoth" xml:space="preserve">
+    <value>Ramoth</value>
+  </data>
+  <data name="Poke_Kobalium" xml:space="preserve">
+    <value>Kobalium</value>
+  </data>
+  <data name="Poke_Terrakium" xml:space="preserve">
+    <value>Terrakium</value>
+  </data>
+  <data name="Poke_Viridium" xml:space="preserve">
+    <value>Viridium</value>
+  </data>
+  <data name="Poke_Boreos" xml:space="preserve">
+    <value>Boreos</value>
+  </data>
+  <data name="Poke_Voltolos" xml:space="preserve">
+    <value>Voltolos</value>
+  </data>
+  <data name="Poke_Reshiram" xml:space="preserve">
+    <value>Reshiram</value>
+  </data>
+  <data name="Poke_Zekrom" xml:space="preserve">
+    <value>Zekrom</value>
+  </data>
+  <data name="Poke_Demeteros" xml:space="preserve">
+    <value>Demeteros</value>
+  </data>
+  <data name="Poke_Kyurem" xml:space="preserve">
+    <value>Kyurem</value>
+  </data>
+  <data name="Poke_Keldeo" xml:space="preserve">
+    <value>Keldeo</value>
+  </data>
+  <data name="Poke_Meloetta" xml:space="preserve">
+    <value>Meloetta</value>
+  </data>
+  <data name="Poke_Genesect" xml:space="preserve">
+    <value>Genesect</value>
+  </data>
+  <data name="Poke_Igamaro" xml:space="preserve">
+    <value>Igamaro</value>
+  </data>
+  <data name="Poke_Igastarnish" xml:space="preserve">
+    <value>Igastarnish</value>
+  </data>
+  <data name="Poke_Brigaron" xml:space="preserve">
+    <value>Brigaron</value>
+  </data>
+  <data name="Poke_Fynx" xml:space="preserve">
+    <value>Fynx</value>
+  </data>
+  <data name="Poke_Rutena" xml:space="preserve">
+    <value>Rutena</value>
+  </data>
+  <data name="Poke_Fennexis" xml:space="preserve">
+    <value>Fennexis</value>
+  </data>
+  <data name="Poke_Froxy" xml:space="preserve">
+    <value>Froxy</value>
+  </data>
+  <data name="Poke_Amphizel" xml:space="preserve">
+    <value>Amphizel</value>
+  </data>
+  <data name="Poke_Quajutsu" xml:space="preserve">
+    <value>Quajutsu</value>
+  </data>
+  <data name="Poke_Scoppel" xml:space="preserve">
+    <value>Scoppel</value>
+  </data>
+  <data name="Poke_Grebbit" xml:space="preserve">
+    <value>Grebbit</value>
+  </data>
+  <data name="Poke_Dartiri" xml:space="preserve">
+    <value>Dartiri</value>
+  </data>
+  <data name="Poke_Dartignis" xml:space="preserve">
+    <value>Dartignis</value>
+  </data>
+  <data name="Poke_Fiaro" xml:space="preserve">
+    <value>Fiaro</value>
+  </data>
+  <data name="Poke_Purmel" xml:space="preserve">
+    <value>Purmel</value>
+  </data>
+  <data name="Poke_Puponcho" xml:space="preserve">
+    <value>Puponcho</value>
+  </data>
+  <data name="Poke_Vivillon" xml:space="preserve">
+    <value>Vivillon</value>
+  </data>
+  <data name="Poke_Leufeo" xml:space="preserve">
+    <value>Leufeo</value>
+  </data>
+  <data name="Poke_Pyroleo" xml:space="preserve">
+    <value>Pyroleo</value>
+  </data>
+  <data name="Poke_Flabebe" xml:space="preserve">
+    <value>Flabébé</value>
+  </data>
+  <data name="Poke_Floette" xml:space="preserve">
+    <value>Floette</value>
+  </data>
+  <data name="Poke_Florges" xml:space="preserve">
+    <value>Florges</value>
+  </data>
+  <data name="Poke_Maehikel" xml:space="preserve">
+    <value>Mähikel</value>
+  </data>
+  <data name="Poke_Chevrumm" xml:space="preserve">
+    <value>Chevrumm</value>
+  </data>
+  <data name="Poke_Pam_Pam" xml:space="preserve">
+    <value>Pam-Pam</value>
+  </data>
+  <data name="Poke_Pandagro" xml:space="preserve">
+    <value>Pandagro</value>
+  </data>
+  <data name="Poke_Coiffwaff" xml:space="preserve">
+    <value>Coiffwaff</value>
+  </data>
+  <data name="Poke_Psiau" xml:space="preserve">
+    <value>Psiau</value>
+  </data>
+  <data name="Poke_Psiaugon" xml:space="preserve">
+    <value>Psiaugon</value>
+  </data>
+  <data name="Poke_Gramokles" xml:space="preserve">
+    <value>Gramokles</value>
+  </data>
+  <data name="Poke_Duokles" xml:space="preserve">
+    <value>Duokles</value>
+  </data>
+  <data name="Poke_Durengard" xml:space="preserve">
+    <value>Durengard</value>
+  </data>
+  <data name="Poke_Parfi" xml:space="preserve">
+    <value>Parfi</value>
+  </data>
+  <data name="Poke_Parfinesse" xml:space="preserve">
+    <value>Parfinesse</value>
+  </data>
+  <data name="Poke_Flauschling" xml:space="preserve">
+    <value>Flauschling</value>
+  </data>
+  <data name="Poke_Sabbaione" xml:space="preserve">
+    <value>Sabbaione</value>
+  </data>
+  <data name="Poke_Iscalar" xml:space="preserve">
+    <value>Iscalar</value>
+  </data>
+  <data name="Poke_Calamanero" xml:space="preserve">
+    <value>Calamanero</value>
+  </data>
+  <data name="Poke_Bithora" xml:space="preserve">
+    <value>Bithora</value>
+  </data>
+  <data name="Poke_Thanathora" xml:space="preserve">
+    <value>Thanathora</value>
+  </data>
+  <data name="Poke_Algitt" xml:space="preserve">
+    <value>Algitt</value>
+  </data>
+  <data name="Poke_Tandrak" xml:space="preserve">
+    <value>Tandrak</value>
+  </data>
+  <data name="Poke_Scampisto" xml:space="preserve">
+    <value>Scampisto</value>
+  </data>
+  <data name="Poke_Wummer" xml:space="preserve">
+    <value>Wummer</value>
+  </data>
+  <data name="Poke_Eguana" xml:space="preserve">
+    <value>Eguana</value>
+  </data>
+  <data name="Poke_Elezard" xml:space="preserve">
+    <value>Elezard</value>
+  </data>
+  <data name="Poke_Balgoras" xml:space="preserve">
+    <value>Balgoras</value>
+  </data>
+  <data name="Poke_Monargoras" xml:space="preserve">
+    <value>Monargoras</value>
+  </data>
+  <data name="Poke_Amarino" xml:space="preserve">
+    <value>Amarino</value>
+  </data>
+  <data name="Poke_Amagarga" xml:space="preserve">
+    <value>Amagarga</value>
+  </data>
+  <data name="Poke_Feelinara" xml:space="preserve">
+    <value>Feelinara</value>
+  </data>
+  <data name="Poke_Resladero" xml:space="preserve">
+    <value>Resladero</value>
+  </data>
+  <data name="Poke_Dedenne" xml:space="preserve">
+    <value>Dedenne</value>
+  </data>
+  <data name="Poke_Rocara" xml:space="preserve">
+    <value>Rocara</value>
+  </data>
+  <data name="Poke_Viscora" xml:space="preserve">
+    <value>Viscora</value>
+  </data>
+  <data name="Poke_Viscargot" xml:space="preserve">
+    <value>Viscargot</value>
+  </data>
+  <data name="Poke_Viscogon" xml:space="preserve">
+    <value>Viscogon</value>
+  </data>
+  <data name="Poke_Clavion" xml:space="preserve">
+    <value>Clavion</value>
+  </data>
+  <data name="Poke_Paragoni" xml:space="preserve">
+    <value>Paragoni</value>
+  </data>
+  <data name="Poke_Trombork" xml:space="preserve">
+    <value>Trombork</value>
+  </data>
+  <data name="Poke_Irrbis" xml:space="preserve">
+    <value>Irrbis</value>
+  </data>
+  <data name="Poke_Pumpdjinn" xml:space="preserve">
+    <value>Pumpdjinn</value>
+  </data>
+  <data name="Poke_Arktip" xml:space="preserve">
+    <value>Arktip</value>
+  </data>
+  <data name="Poke_Arktilas" xml:space="preserve">
+    <value>Arktilas</value>
+  </data>
+  <data name="Poke_eF_eM" xml:space="preserve">
+    <value>eF-eM</value>
+  </data>
+  <data name="Poke_UHaFnir" xml:space="preserve">
+    <value>UHaFnir</value>
+  </data>
+  <data name="Poke_Xerneas" xml:space="preserve">
+    <value>Xerneas</value>
+  </data>
+  <data name="Poke_Yveltal" xml:space="preserve">
+    <value>Yveltal</value>
+  </data>
+  <data name="Poke_Zygarde" xml:space="preserve">
+    <value>Zygarde</value>
+  </data>
+  <data name="Poke_Diancie" xml:space="preserve">
+    <value>Diancie</value>
+  </data>
+  <data name="Poke_Hoopa" xml:space="preserve">
+    <value>Hoopa</value>
+  </data>
+  <data name="Poke_Volcanion" xml:space="preserve">
+    <value>Volcanion</value>
+  </data>
+  <data name="Poke_Bauz" xml:space="preserve">
+    <value>Bauz</value>
+  </data>
+  <data name="Poke_Arboretoss" xml:space="preserve">
+    <value>Arboretoss</value>
+  </data>
+  <data name="Poke_Silvarro" xml:space="preserve">
+    <value>Silvarro</value>
+  </data>
+  <data name="Poke_Flamiau" xml:space="preserve">
+    <value>Flamiau</value>
+  </data>
+  <data name="Poke_Miezunder" xml:space="preserve">
+    <value>Miezunder</value>
+  </data>
+  <data name="Poke_Fuegro" xml:space="preserve">
+    <value>Fuegro</value>
+  </data>
+  <data name="Poke_Robball" xml:space="preserve">
+    <value>Robball</value>
+  </data>
+  <data name="Poke_Marikeck" xml:space="preserve">
+    <value>Marikeck</value>
+  </data>
+  <data name="Poke_Primarene" xml:space="preserve">
+    <value>Primarene</value>
+  </data>
+  <data name="Poke_Peppeck" xml:space="preserve">
+    <value>Peppeck</value>
+  </data>
+  <data name="Poke_Trompeck" xml:space="preserve">
+    <value>Trompeck</value>
+  </data>
+  <data name="Poke_Tukanon" xml:space="preserve">
+    <value>Tukanon</value>
+  </data>
+  <data name="Poke_Mangunior" xml:space="preserve">
+    <value>Mangunior</value>
+  </data>
+  <data name="Poke_Manguspektor" xml:space="preserve">
+    <value>Manguspektor</value>
+  </data>
+  <data name="Poke_Mabula" xml:space="preserve">
+    <value>Mabula</value>
+  </data>
+  <data name="Poke_Akkup" xml:space="preserve">
+    <value>Akkup</value>
+  </data>
+  <data name="Poke_Donarion" xml:space="preserve">
+    <value>Donarion</value>
+  </data>
+  <data name="Poke_Krabbox" xml:space="preserve">
+    <value>Krabbox</value>
+  </data>
+  <data name="Poke_Krawell" xml:space="preserve">
+    <value>Krawell</value>
+  </data>
+  <data name="Poke_Choreogel" xml:space="preserve">
+    <value>Choreogel</value>
+  </data>
+  <data name="Poke_Wommel" xml:space="preserve">
+    <value>Wommel</value>
+  </data>
+  <data name="Poke_Bandelby" xml:space="preserve">
+    <value>Bandelby</value>
+  </data>
+  <data name="Poke_Wuffels" xml:space="preserve">
+    <value>Wuffels</value>
+  </data>
+  <data name="Poke_Wolwerock" xml:space="preserve">
+    <value>Wolwerock</value>
+  </data>
+  <data name="Poke_Lusardin" xml:space="preserve">
+    <value>Lusardin</value>
+  </data>
+  <data name="Poke_Garstella" xml:space="preserve">
+    <value>Garstella</value>
+  </data>
+  <data name="Poke_Aggrostella" xml:space="preserve">
+    <value>Aggrostella</value>
+  </data>
+  <data name="Poke_Pampuli" xml:space="preserve">
+    <value>Pampuli</value>
+  </data>
+  <data name="Poke_Pampross" xml:space="preserve">
+    <value>Pampross</value>
+  </data>
+  <data name="Poke_Araqua" xml:space="preserve">
+    <value>Araqua</value>
+  </data>
+  <data name="Poke_Aranestro" xml:space="preserve">
+    <value>Aranestro</value>
+  </data>
+  <data name="Poke_Imantis" xml:space="preserve">
+    <value>Imantis</value>
+  </data>
+  <data name="Poke_Mantidea" xml:space="preserve">
+    <value>Mantidea</value>
+  </data>
+  <data name="Poke_Bubungus" xml:space="preserve">
+    <value>Bubungus</value>
+  </data>
+  <data name="Poke_Lamellux" xml:space="preserve">
+    <value>Lamellux</value>
+  </data>
+  <data name="Poke_Molunk" xml:space="preserve">
+    <value>Molunk</value>
+  </data>
+  <data name="Poke_Amfira" xml:space="preserve">
+    <value>Amfira</value>
+  </data>
+  <data name="Poke_Velursi" xml:space="preserve">
+    <value>Velursi</value>
+  </data>
+  <data name="Poke_Kosturso" xml:space="preserve">
+    <value>Kosturso</value>
+  </data>
+  <data name="Poke_Frubberl" xml:space="preserve">
+    <value>Frubberl</value>
+  </data>
+  <data name="Poke_Frubaila" xml:space="preserve">
+    <value>Frubaila</value>
+  </data>
+  <data name="Poke_Fruyal" xml:space="preserve">
+    <value>Fruyal</value>
+  </data>
+  <data name="Poke_Curelei" xml:space="preserve">
+    <value>Curelei</value>
+  </data>
+  <data name="Poke_Kommandutan" xml:space="preserve">
+    <value>Kommandutan</value>
+  </data>
+  <data name="Poke_Quartermak" xml:space="preserve">
+    <value>Quartermak</value>
+  </data>
+  <data name="Poke_Reislaus" xml:space="preserve">
+    <value>Reißlaus</value>
+  </data>
+  <data name="Poke_Tectass" xml:space="preserve">
+    <value>Tectass</value>
+  </data>
+  <data name="Poke_Sankabuh" xml:space="preserve">
+    <value>Sankabuh</value>
+  </data>
+  <data name="Poke_Colossand" xml:space="preserve">
+    <value>Colossand</value>
+  </data>
+  <data name="Poke_Gufa" xml:space="preserve">
+    <value>Gufa</value>
+  </data>
+  <data name="Poke_Typ_Null" xml:space="preserve">
+    <value>Typ:Null</value>
+  </data>
+  <data name="Poke_Amigento" xml:space="preserve">
+    <value>Amigento</value>
+  </data>
+  <data name="Poke_Meteno" xml:space="preserve">
+    <value>Meteno</value>
+  </data>
+  <data name="Poke_Koalelu" xml:space="preserve">
+    <value>Koalelu</value>
+  </data>
+  <data name="Poke_Tortunator" xml:space="preserve">
+    <value>Tortunator</value>
+  </data>
+  <data name="Poke_Togedemaru" xml:space="preserve">
+    <value>Togedemaru</value>
+  </data>
+  <data name="Poke_Mimigma" xml:space="preserve">
+    <value>Mimigma</value>
+  </data>
+  <data name="Poke_Knirfish" xml:space="preserve">
+    <value>Knirfish</value>
+  </data>
+  <data name="Poke_Sen_Long" xml:space="preserve">
+    <value>Sen-Long</value>
+  </data>
+  <data name="Poke_Moruda" xml:space="preserve">
+    <value>Moruda</value>
+  </data>
+  <data name="Poke_Miniras" xml:space="preserve">
+    <value>Miniras</value>
+  </data>
+  <data name="Poke_Mediras" xml:space="preserve">
+    <value>Mediras</value>
+  </data>
+  <data name="Poke_Grandiras" xml:space="preserve">
+    <value>Grandiras</value>
+  </data>
+  <data name="Poke_Kapu_Riki" xml:space="preserve">
+    <value>Kapu-Riki</value>
+  </data>
+  <data name="Poke_Kapu_Fala" xml:space="preserve">
+    <value>Kapu-Fala</value>
+  </data>
+  <data name="Poke_Kapu_Toro" xml:space="preserve">
+    <value>Kapu-Toro</value>
+  </data>
+  <data name="Poke_Kapu_Kime" xml:space="preserve">
+    <value>Kapu-Kime</value>
+  </data>
+  <data name="Poke_Cosmog" xml:space="preserve">
+    <value>Cosmog</value>
+  </data>
+  <data name="Poke_Cosmovum" xml:space="preserve">
+    <value>Cosmovum</value>
+  </data>
+  <data name="Poke_Solgaleo" xml:space="preserve">
+    <value>Solgaleo</value>
+  </data>
+  <data name="Poke_Lunala" xml:space="preserve">
+    <value>Lunala</value>
+  </data>
+  <data name="Poke_Anego" xml:space="preserve">
+    <value>Anego</value>
+  </data>
+  <data name="Poke_Masskito" xml:space="preserve">
+    <value>Masskito</value>
+  </data>
+  <data name="Poke_Schabelle" xml:space="preserve">
+    <value>Schabelle</value>
+  </data>
+  <data name="Poke_Voltriant" xml:space="preserve">
+    <value>Voltriant</value>
+  </data>
+  <data name="Poke_Kaguron" xml:space="preserve">
+    <value>Kaguron</value>
+  </data>
+  <data name="Poke_Katagami" xml:space="preserve">
+    <value>Katagami</value>
+  </data>
+  <data name="Poke_Schlingking" xml:space="preserve">
+    <value>Schlingking</value>
+  </data>
+  <data name="Poke_Necrozma" xml:space="preserve">
+    <value>Necrozma</value>
+  </data>
+  <data name="Poke_Magearna" xml:space="preserve">
+    <value>Magearna</value>
+  </data>
+  <data name="Poke_Marshadow" xml:space="preserve">
+    <value>Marshadow</value>
+  </data>
+  <data name="Poke_Venicro" xml:space="preserve">
+    <value>Venicro</value>
+  </data>
+  <data name="Poke_Agoyon" xml:space="preserve">
+    <value>Agoyon</value>
+  </data>
+  <data name="Poke_Muramura" xml:space="preserve">
+    <value>Muramura</value>
+  </data>
+  <data name="Poke_Kopplosio" xml:space="preserve">
+    <value>Kopplosio</value>
+  </data>
+  <data name="Poke_Zeraora" xml:space="preserve">
+    <value>Zeraora</value>
+  </data>
+  <data name="Poke_Meltan" xml:space="preserve">
+    <value>Meltan</value>
+  </data>
+  <data name="Poke_Melmetal" xml:space="preserve">
+    <value>Melmetal</value>
+  </data>
+  <data name="Poke_Chimpep" xml:space="preserve">
+    <value>Chimpep</value>
+  </data>
+  <data name="Poke_Chimstix" xml:space="preserve">
+    <value>Chimstix</value>
+  </data>
+  <data name="Poke_Gortrom" xml:space="preserve">
+    <value>Gortrom</value>
+  </data>
+  <data name="Poke_Hopplo" xml:space="preserve">
+    <value>Hopplo</value>
+  </data>
+  <data name="Poke_Kickerlo" xml:space="preserve">
+    <value>Kickerlo</value>
+  </data>
+  <data name="Poke_Liberlo" xml:space="preserve">
+    <value>Liberlo</value>
+  </data>
+  <data name="Poke_Memmeon" xml:space="preserve">
+    <value>Memmeon</value>
+  </data>
+  <data name="Poke_Phlegleon" xml:space="preserve">
+    <value>Phlegleon</value>
+  </data>
+  <data name="Poke_Intelleon" xml:space="preserve">
+    <value>Intelleon</value>
+  </data>
+  <data name="Poke_Raffel" xml:space="preserve">
+    <value>Raffel</value>
+  </data>
+  <data name="Poke_Schlaraffel" xml:space="preserve">
+    <value>Schlaraffel</value>
+  </data>
+  <data name="Poke_Meikro" xml:space="preserve">
+    <value>Meikro</value>
+  </data>
+  <data name="Poke_Kranoviz" xml:space="preserve">
+    <value>Kranoviz</value>
+  </data>
+  <data name="Poke_Krarmor" xml:space="preserve">
+    <value>Krarmor</value>
+  </data>
+  <data name="Poke_Sensect" xml:space="preserve">
+    <value>Sensect</value>
+  </data>
+  <data name="Poke_Keradar" xml:space="preserve">
+    <value>Keradar</value>
+  </data>
+  <data name="Poke_Maritellit" xml:space="preserve">
+    <value>Maritellit</value>
+  </data>
+  <data name="Poke_Kleptifux" xml:space="preserve">
+    <value>Kleptifux</value>
+  </data>
+  <data name="Poke_Gaunux" xml:space="preserve">
+    <value>Gaunux</value>
+  </data>
+  <data name="Poke_Cottini" xml:space="preserve">
+    <value>Cottini</value>
+  </data>
+  <data name="Poke_Cottomi" xml:space="preserve">
+    <value>Cottomi</value>
+  </data>
+  <data name="Poke_Wolly" xml:space="preserve">
+    <value>Wolly</value>
+  </data>
+  <data name="Poke_Zwollock" xml:space="preserve">
+    <value>Zwollock</value>
+  </data>
+  <data name="Poke_Kamehaps" xml:space="preserve">
+    <value>Kamehaps</value>
+  </data>
+  <data name="Poke_Kamalm" xml:space="preserve">
+    <value>Kamalm</value>
+  </data>
+  <data name="Poke_Voldi" xml:space="preserve">
+    <value>Voldi</value>
+  </data>
+  <data name="Poke_Bellektro" xml:space="preserve">
+    <value>Bellektro</value>
+  </data>
+  <data name="Poke_Klonkett" xml:space="preserve">
+    <value>Klonkett</value>
+  </data>
+  <data name="Poke_Wagong" xml:space="preserve">
+    <value>Wagong</value>
+  </data>
+  <data name="Poke_Montecarbo" xml:space="preserve">
+    <value>Montecarbo</value>
+  </data>
+  <data name="Poke_Knapfel" xml:space="preserve">
+    <value>Knapfel</value>
+  </data>
+  <data name="Poke_Drapfel" xml:space="preserve">
+    <value>Drapfel</value>
+  </data>
+  <data name="Poke_Schlapfel" xml:space="preserve">
+    <value>Schlapfel</value>
+  </data>
+  <data name="Poke_Salanga" xml:space="preserve">
+    <value>Salanga</value>
+  </data>
+  <data name="Poke_Sanaconda" xml:space="preserve">
+    <value>Sanaconda</value>
+  </data>
+  <data name="Poke_Urgl" xml:space="preserve">
+    <value>Urgl</value>
+  </data>
+  <data name="Poke_Pikuda" xml:space="preserve">
+    <value>Pikuda</value>
+  </data>
+  <data name="Poke_Barrakiefa" xml:space="preserve">
+    <value>Barrakiefa</value>
+  </data>
+  <data name="Poke_Toxel" xml:space="preserve">
+    <value>Toxel</value>
+  </data>
+  <data name="Poke_Riffex" xml:space="preserve">
+    <value>Riffex</value>
+  </data>
+  <data name="Poke_Thermopod" xml:space="preserve">
+    <value>Thermopod</value>
+  </data>
+  <data name="Poke_Infernopod" xml:space="preserve">
+    <value>Infernopod</value>
+  </data>
+  <data name="Poke_Klopptopus" xml:space="preserve">
+    <value>Klopptopus</value>
+  </data>
+  <data name="Poke_Kaocto" xml:space="preserve">
+    <value>Kaocto</value>
+  </data>
+  <data name="Poke_Fatalitee" xml:space="preserve">
+    <value>Fatalitee</value>
+  </data>
+  <data name="Poke_Mortipot" xml:space="preserve">
+    <value>Mortipot</value>
+  </data>
+  <data name="Poke_Brimova" xml:space="preserve">
+    <value>Brimova</value>
+  </data>
+  <data name="Poke_Brimano" xml:space="preserve">
+    <value>Brimano</value>
+  </data>
+  <data name="Poke_Silembrim" xml:space="preserve">
+    <value>Silembrim</value>
+  </data>
+  <data name="Poke_Baehmon" xml:space="preserve">
+    <value>Bähmon</value>
+  </data>
+  <data name="Poke_Pelzebub" xml:space="preserve">
+    <value>Pelzebub</value>
+  </data>
+  <data name="Poke_Olangaar" xml:space="preserve">
+    <value>Olangaar</value>
+  </data>
+  <data name="Poke_Barrikadax" xml:space="preserve">
+    <value>Barrikadax</value>
+  </data>
+  <data name="Poke_Mauzinger" xml:space="preserve">
+    <value>Mauzinger</value>
+  </data>
+  <data name="Poke_Gorgasonn" xml:space="preserve">
+    <value>Gorgasonn</value>
+  </data>
+  <data name="Poke_Lauchzelot" xml:space="preserve">
+    <value>Lauchzelot</value>
+  </data>
+  <data name="Poke_Pantifrost" xml:space="preserve">
+    <value>Pantifrost</value>
+  </data>
+  <data name="Poke_Oghnatoll" xml:space="preserve">
+    <value>Oghnatoll</value>
+  </data>
+  <data name="Poke_Hokumil" xml:space="preserve">
+    <value>Hokumil</value>
+  </data>
+  <data name="Poke_Pokusan" xml:space="preserve">
+    <value>Pokusan</value>
+  </data>
+  <data name="Poke_Legios" xml:space="preserve">
+    <value>Legios</value>
+  </data>
+  <data name="Poke_Britzigel" xml:space="preserve">
+    <value>Britzigel</value>
+  </data>
+  <data name="Poke_Snomnom" xml:space="preserve">
+    <value>Snomnom</value>
+  </data>
+  <data name="Poke_Mottineva" xml:space="preserve">
+    <value>Mottineva</value>
+  </data>
+  <data name="Poke_Humanolith" xml:space="preserve">
+    <value>Humanolith</value>
+  </data>
+  <data name="Poke_Kubuin" xml:space="preserve">
+    <value>Kubuin</value>
+  </data>
+  <data name="Poke_Servol" xml:space="preserve">
+    <value>Servol</value>
+  </data>
+  <data name="Poke_Morpeko" xml:space="preserve">
+    <value>Morpeko</value>
+  </data>
+  <data name="Poke_Kupfanti" xml:space="preserve">
+    <value>Kupfanti</value>
+  </data>
+  <data name="Poke_Patinaraja" xml:space="preserve">
+    <value>Patinaraja</value>
+  </data>
+  <data name="Poke_Lectragon" xml:space="preserve">
+    <value>Lectragon</value>
+  </data>
+  <data name="Poke_Lectryodon" xml:space="preserve">
+    <value>Lectryodon</value>
+  </data>
+  <data name="Poke_Pescragon" xml:space="preserve">
+    <value>Pescragon</value>
+  </data>
+  <data name="Poke_Pescryodon" xml:space="preserve">
+    <value>Pescryodon</value>
+  </data>
+  <data name="Poke_Duraldon" xml:space="preserve">
+    <value>Duraldon</value>
+  </data>
+  <data name="Poke_Grolldra" xml:space="preserve">
+    <value>Grolldra</value>
+  </data>
+  <data name="Poke_Phandra" xml:space="preserve">
+    <value>Phandra</value>
+  </data>
+  <data name="Poke_Katapuldra" xml:space="preserve">
+    <value>Katapuldra</value>
+  </data>
+  <data name="Poke_Zacian" xml:space="preserve">
+    <value>Zacian</value>
+  </data>
+  <data name="Poke_Zamazenta" xml:space="preserve">
+    <value>Zamazenta</value>
+  </data>
+  <data name="Poke_Endynalos" xml:space="preserve">
+    <value>Endynalos</value>
+  </data>
+  <data name="Poke_Dakuma" xml:space="preserve">
+    <value>Dakuma</value>
+  </data>
+  <data name="Poke_Wulaosu" xml:space="preserve">
+    <value>Wulaosu</value>
+  </data>
+  <data name="Poke_Zarude" xml:space="preserve">
+    <value>Zarude</value>
+  </data>
+  <data name="Poke_Regieleki" xml:space="preserve">
+    <value>Regieleki</value>
+  </data>
+  <data name="Poke_Regidrago" xml:space="preserve">
+    <value>Regidrago</value>
+  </data>
+  <data name="Poke_Polaross" xml:space="preserve">
+    <value>Polaross</value>
+  </data>
+  <data name="Poke_Phantoross" xml:space="preserve">
+    <value>Phantoross</value>
+  </data>
+  <data name="Poke_Coronospa" xml:space="preserve">
+    <value>Coronospa</value>
+  </data>
+  <data name="Form_Mega" xml:space="preserve">
+    <value>Mega</value>
+  </data>
+  <data name="Form_MegaX" xml:space="preserve">
+    <value>Mega-X</value>
+  </data>
+  <data name="Form_MegaY" xml:space="preserve">
+    <value>Mega-Y</value>
+  </data>
+  <data name="Form_Gigadynamax" xml:space="preserve">
+    <value>Gigadynamax</value>
+  </data>
+  <data name="Form_Alola" xml:space="preserve">
+    <value>Alola</value>
+  </data>
+  <data name="Form_Galar" xml:space="preserve">
+    <value>Galar</value>
+  </data>
+  <data name="Form_RockStar" xml:space="preserve">
+    <value>Rocker</value>
+  </data>
+  <data name="Form_Belle" xml:space="preserve">
+    <value>Damen</value>
+  </data>
+  <data name="Form_Libre" xml:space="preserve">
+    <value>Wrestler</value>
+  </data>
+  <data name="Form_Professor" xml:space="preserve">
+    <value>Professor</value>
+  </data>
+  <data name="Form_PopStar" xml:space="preserve">
+    <value>Star</value>
+  </data>
+  <data name="Form_Primal" xml:space="preserve">
+    <value>Protomorphose</value>
+  </data>
+  <data name="Form_SunShineForm" xml:space="preserve">
+    <value>Sonnentagsform</value>
+  </data>
+  <data name="Form_Attack" xml:space="preserve">
+    <value>Angriff</value>
+  </data>
+  <data name="Form_Defense" xml:space="preserve">
+    <value>Verteidigung</value>
+  </data>
+  <data name="Form_Speed" xml:space="preserve">
+    <value>Initiative</value>
+  </data>
+  <data name="Form_SandyCloak" xml:space="preserve">
+    <value>Sandumhang</value>
+  </data>
+  <data name="Form_TrashCloak" xml:space="preserve">
+    <value>Lumpenumhang</value>
+  </data>
+  <data name="Form_West" xml:space="preserve">
+    <value>Westen</value>
+  </data>
+  <data name="Form_East" xml:space="preserve">
+    <value>Osten</value>
+  </data>
+  <data name="Form_Fan" xml:space="preserve">
+    <value>Wirbel</value>
+  </data>
+  <data name="Form_Frost" xml:space="preserve">
+    <value>Frost</value>
+  </data>
+  <data name="Form_Heat" xml:space="preserve">
+    <value>Hitze</value>
+  </data>
+  <data name="Form_Mow" xml:space="preserve">
+    <value>Schneid</value>
+  </data>
+  <data name="Form_Wash" xml:space="preserve">
+    <value>Wasch</value>
+  </data>
+  <data name="Form_OriginForm" xml:space="preserve">
+    <value>Urform</value>
+  </data>
+  <data name="Form_Sky" xml:space="preserve">
+    <value>Zenit</value>
+  </data>
+  <data name="Form_Female" xml:space="preserve">
+    <value>Weiblich</value>
+  </data>
+  <data name="Form_BlueStriped" xml:space="preserve">
+    <value>Blaulinig</value>
+  </data>
+  <data name="Form_Zen" xml:space="preserve">
+    <value>Trance</value>
+  </data>
+  <data name="Form_Spring" xml:space="preserve">
+    <value>Frühling</value>
+  </data>
+  <data name="Form_Summer" xml:space="preserve">
+    <value>Sommer</value>
+  </data>
+  <data name="Form_Autumn" xml:space="preserve">
+    <value>Herbst</value>
+  </data>
+  <data name="Form_Winter" xml:space="preserve">
+    <value>Winter</value>
+  </data>
+  <data name="Form_Therian" xml:space="preserve">
+    <value>Tiergeist</value>
+  </data>
+  <data name="Form_Black" xml:space="preserve">
+    <value>Schwarz</value>
+  </data>
+  <data name="Form_White" xml:space="preserve">
+    <value>Weiß</value>
+  </data>
+  <data name="Form_Resolute" xml:space="preserve">
+    <value>Resolut</value>
+  </data>
+  <data name="Form_PirouetteForm" xml:space="preserve">
+    <value>Tanzform</value>
+  </data>
+  <data name="Form_Ash" xml:space="preserve">
+    <value>Ash</value>
+  </data>
+  <data name="Form_DiamondTrim" xml:space="preserve">
+    <value>Diamantenschnitt</value>
+  </data>
+  <data name="Form_HeartTrim" xml:space="preserve">
+    <value>Herzchenschnitt</value>
+  </data>
+  <data name="Form_StarTrim" xml:space="preserve">
+    <value>Sternchenschnitt</value>
+  </data>
+  <data name="Form_Blade" xml:space="preserve">
+    <value>Klinge</value>
+  </data>
+  <data name="Form_Shield" xml:space="preserve">
+    <value>Schild</value>
+  </data>
+  <data name="Form_Unbound" xml:space="preserve">
+    <value>Entfesselt</value>
+  </data>
+  <data name="Form_TenPercent" xml:space="preserve">
+    <value>10 %</value>
+  </data>
+  <data name="Form_FiftyPercent" xml:space="preserve">
+    <value>50 %</value>
+  </data>
+  <data name="Form_Complete" xml:space="preserve">
+    <value>Optimum</value>
+  </data>
+  <data name="Form_Sensu" xml:space="preserve">
+    <value>Buyo</value>
+  </data>
+  <data name="Form_Pom_Pom" xml:space="preserve">
+    <value>Cheerleading</value>
+  </data>
+  <data name="Form_Baile" xml:space="preserve">
+    <value>Flamenco</value>
+  </data>
+  <data name="Form_P_au" xml:space="preserve">
+    <value>Hula</value>
+  </data>
+  <data name="Form_MidnightForm" xml:space="preserve">
+    <value>Nachtform</value>
+  </data>
+  <data name="Form_DuskForm" xml:space="preserve">
+    <value>Zwielichtform</value>
+  </data>
+  <data name="Form_SchoolForm" xml:space="preserve">
+    <value>Schwarmform</value>
+  </data>
+  <data name="Form_RedCore" xml:space="preserve">
+    <value>Roter Kern</value>
+  </data>
+  <data name="Form_DawnWings" xml:space="preserve">
+    <value>Morgenschwinge</value>
+  </data>
+  <data name="Form_DuskMane" xml:space="preserve">
+    <value>Abendmähne</value>
+  </data>
+  <data name="Form_Ultra" xml:space="preserve">
+    <value>Ultra</value>
+  </data>
+  <data name="Form_OriginalColor" xml:space="preserve">
+    <value>Originalfarbe</value>
+  </data>
+  <data name="Form_LowKey" xml:space="preserve">
+    <value>Tief-Form</value>
+  </data>
+  <data name="Form_Hangry" xml:space="preserve">
+    <value>Kohldampf</value>
+  </data>
+  <data name="Form_CrownedSword" xml:space="preserve">
+    <value>König des Schwertes</value>
+  </data>
+  <data name="Form_CrownedShield" xml:space="preserve">
+    <value>König des Schildes</value>
+  </data>
+  <data name="Form_Eternamax" xml:space="preserve">
+    <value>Unendynamax</value>
+  </data>
+  <data name="Form_SingleStrikeStyle" xml:space="preserve">
+    <value>Fokusierter Stil</value>
+  </data>
+  <data name="Form_RapidStrikeStyle" xml:space="preserve">
+    <value>Fließender Stil</value>
+  </data>
+  <data name="Form_IceRider" xml:space="preserve">
+    <value>Schimmelreiter</value>
+  </data>
+  <data name="Form_ShadowRider" xml:space="preserve">
+    <value>Rappenreiter</value>
+  </data>
+  <data name="Form_OriginalCap" xml:space="preserve">
+    <value>Original-Kappe</value>
+  </data>
+  <data name="Form_HoennCap" xml:space="preserve">
+    <value>Hoenn-Kappe</value>
+  </data>
+  <data name="Form_SinnohCap" xml:space="preserve">
+    <value>Sinnoh-Kappe</value>
+  </data>
+  <data name="Form_UnovaCap" xml:space="preserve">
+    <value>Einall-Kappe</value>
+  </data>
+  <data name="Form_KalosCap" xml:space="preserve">
+    <value>Kalos-Kappe</value>
+  </data>
+  <data name="Form_AlolaCap" xml:space="preserve">
+    <value>Alola-Kappe</value>
+  </data>
+  <data name="Form_PartnerCap" xml:space="preserve">
+    <value>Partner-Kappe</value>
+  </data>
+  <data name="Form_WorldCap" xml:space="preserve">
+    <value>Weltreise-Kappe</value>
+  </data>
+  <data name="Form_Grass" xml:space="preserve">
+    <value>Pflanze</value>
+  </data>
+  <data name="Form_Fire" xml:space="preserve">
+    <value>Feuer</value>
+  </data>
+  <data name="Form_Water" xml:space="preserve">
+    <value>Wasser</value>
+  </data>
+  <data name="Form_Flying" xml:space="preserve">
+    <value>Flug</value>
+  </data>
+  <data name="Form_Electric" xml:space="preserve">
+    <value>Elektro</value>
+  </data>
+  <data name="Form_Bug" xml:space="preserve">
+    <value>Käfer</value>
+  </data>
+  <data name="Form_Poison" xml:space="preserve">
+    <value>Gift</value>
+  </data>
+  <data name="Form_Rock" xml:space="preserve">
+    <value>Gestein</value>
+  </data>
+  <data name="Form_Ground" xml:space="preserve">
+    <value>Boden</value>
+  </data>
+  <data name="Form_Fighting" xml:space="preserve">
+    <value>Kampf</value>
+  </data>
+  <data name="Form_Psychic" xml:space="preserve">
+    <value>Psycho</value>
+  </data>
+  <data name="Form_Ghost" xml:space="preserve">
+    <value>Geist</value>
+  </data>
+  <data name="Form_Ice" xml:space="preserve">
+    <value>Eis</value>
+  </data>
+  <data name="Form_Dragon" xml:space="preserve">
+    <value>Drache</value>
+  </data>
+  <data name="Form_Dark" xml:space="preserve">
+    <value>Unlicht</value>
+  </data>
+  <data name="Form_Steel" xml:space="preserve">
+    <value>Stahl</value>
+  </data>
+  <data name="Form_Fairy" xml:space="preserve">
+    <value>Fee</value>
+  </data>
+  <data name="Form_DouseDrive" xml:space="preserve">
+    <value>Aquamodul</value>
+  </data>
+  <data name="Form_ShockDrive" xml:space="preserve">
+    <value>Blitzmodul</value>
+  </data>
+  <data name="Form_BurnDrive" xml:space="preserve">
+    <value>Flammenmodul</value>
+  </data>
+  <data name="Form_ChillDrive" xml:space="preserve">
+    <value>Gefriermodul</value>
+  </data>
+  <data name="Form_YellowFlower" xml:space="preserve">
+    <value>Gelbblütler</value>
+  </data>
+  <data name="Form_OrangeFlower" xml:space="preserve">
+    <value>Orangeblütler</value>
+  </data>
+  <data name="Form_BlueFlower" xml:space="preserve">
+    <value>Blaublütler</value>
+  </data>
+  <data name="Form_WhiteFlower" xml:space="preserve">
+    <value>Weißblütler</value>
+  </data>
+  <data name="Form_RedFlower" xml:space="preserve">
+    <value>Rotblütler</value>
+  </data>
+  <data name="Form_LaReineTrim" xml:space="preserve">
+    <value>Königinnenschnitt</value>
+  </data>
+  <data name="Form_KabukiTrim" xml:space="preserve">
+    <value>Kabuki-Schnitt</value>
+  </data>
+  <data name="Form_PharaoTrim" xml:space="preserve">
+    <value>Herrscherschnitt</value>
+  </data>
+  <data name="Form_DebutanteTrim" xml:space="preserve">
+    <value>Fräuleinschnitt</value>
+  </data>
+  <data name="Form_MatronTrim" xml:space="preserve">
+    <value>Damenschnitt</value>
+  </data>
+  <data name="Form_DandyTrim" xml:space="preserve">
+    <value>Kavalierschnitt</value>
+  </data>
+  <data name="Form_SmallSize" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="Form_AverageSize" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="Form_LargeSize" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="Form_SuperSize" xml:space="preserve">
+    <value>XL</value>
+  </data>
+  <data name="Form_NeutralMode" xml:space="preserve">
+    <value>Ruhe-Modus</value>
+  </data>
+  <data name="Form_OrangeCore" xml:space="preserve">
+    <value>Oranger Kern</value>
+  </data>
+  <data name="Form_YellowCore" xml:space="preserve">
+    <value>Gelber Kern</value>
+  </data>
+  <data name="Form_GreenCore" xml:space="preserve">
+    <value>Grüner Kern</value>
+  </data>
+  <data name="Form_BlueCore" xml:space="preserve">
+    <value>Hellblauer Kern</value>
+  </data>
+  <data name="Form_IndigoCore" xml:space="preserve">
+    <value>Blauer Kern</value>
+  </data>
+  <data name="Form_VioletCore" xml:space="preserve">
+    <value>Violetter Kern</value>
+  </data>
+  <data name="Form_BustedForm" xml:space="preserve">
+    <value>Entlarvte Form</value>
+  </data>
+  <data name="Form_GulpingForm" xml:space="preserve">
+    <value>Schlingform</value>
+  </data>
+  <data name="Form_GorgingForm" xml:space="preserve">
+    <value>Stopfform</value>
+  </data>
+  <data name="Form_AntiqueForm" xml:space="preserve">
+    <value>Original</value>
+  </data>
+  <data name="Form_NoiceFace" xml:space="preserve">
+    <value>Wohlfühlkopf</value>
+  </data>
+  <data name="Form_Dada" xml:space="preserve">
+    <value>Dada</value>
+  </data>
+  <data name="Form_PlantCloak" xml:space="preserve">
+    <value>Pflanzenumhang</value>
+  </data>
+  <data name="Form_OvercastForm" xml:space="preserve">
+    <value>Wolkenform</value>
+  </data>
+  <data name="Form_AlteredForm" xml:space="preserve">
+    <value>Wandelform</value>
+  </data>
+  <data name="Form_LandForm" xml:space="preserve">
+    <value>Landform</value>
+  </data>
+  <data name="Form_RedStriped" xml:space="preserve">
+    <value>Rotlinig</value>
+  </data>
+  <data name="Form_IncarnateForm" xml:space="preserve">
+    <value>Inkarnation</value>
+  </data>
+  <data name="Form_AriaForm" xml:space="preserve">
+    <value>Gesdangsform</value>
+  </data>
+  <data name="Form_ActiveForm" xml:space="preserve">
+    <value>Aktiv-Modus</value>
+  </data>
+  <data name="Form_MiddayForm" xml:space="preserve">
+    <value>Tagesform</value>
+  </data>
+  <data name="Form_AmpedForm" xml:space="preserve">
+    <value>Hoch-Form</value>
+  </data>
+  <data name="Form_SunnyForm" xml:space="preserve">
+    <value>Sonneform</value>
+  </data>
+  <data name="Form_RainyForm" xml:space="preserve">
+    <value>Regenform</value>
+  </data>
+  <data name="Form_SnowyForm" xml:space="preserve">
+    <value>Schneeform</value>
+  </data>
+  <data name="Form_MeadowPattern" xml:space="preserve">
+    <value>Blumenmuster</value>
+  </data>
+  <data name="Form_PolarPattern" xml:space="preserve">
+    <value>Schneefeldmuster</value>
+  </data>
+  <data name="Form_TundraPattern" xml:space="preserve">
+    <value>Flockenmuster</value>
+  </data>
+  <data name="Form_ContinentalPattern" xml:space="preserve">
+    <value>Kontinentalmuster</value>
+  </data>
+  <data name="Form_GardenPattern" xml:space="preserve">
+    <value>Ziergartenmuster</value>
+  </data>
+  <data name="Form_ElegantPattern" xml:space="preserve">
+    <value>Prunkmuster</value>
+  </data>
+  <data name="Form_IcySnowPattern" xml:space="preserve">
+    <value>Frostmuster</value>
+  </data>
+  <data name="Form_ModernPattern" xml:space="preserve">
+    <value>Innovationsmuster</value>
+  </data>
+  <data name="Form_MarinePattern" xml:space="preserve">
+    <value>Aquamarinmuster</value>
+  </data>
+  <data name="Form_ArchipelagoPattern" xml:space="preserve">
+    <value>Archipelmuster</value>
+  </data>
+  <data name="Form_HighPlainsPattern" xml:space="preserve">
+    <value>Dürremuster</value>
+  </data>
+  <data name="Form_SandstormPattern" xml:space="preserve">
+    <value>Sandmuster</value>
+  </data>
+  <data name="Form_RiverPattern" xml:space="preserve">
+    <value>Flussdeltamuster</value>
+  </data>
+  <data name="Form_MonsoonPattern" xml:space="preserve">
+    <value>Monsunmuster</value>
+  </data>
+  <data name="Form_SavannaPattern" xml:space="preserve">
+    <value>Savannenmuster</value>
+  </data>
+  <data name="Form_SunPattern" xml:space="preserve">
+    <value>Sonnenmuster</value>
+  </data>
+  <data name="Form_OceanPattern" xml:space="preserve">
+    <value>Ozeanmuster</value>
+  </data>
+  <data name="Form_JunglePattern" xml:space="preserve">
+    <value>Dschungelmuster</value>
+  </data>
+  <data name="Form_FancyPattern" xml:space="preserve">
+    <value>Fantasiemuster</value>
+  </data>
+  <data name="Form_PokeBallPattern" xml:space="preserve">
+    <value>Pokéball-Muster</value>
+  </data>
+  <data name="Form_VanillaCream" xml:space="preserve">
+    <value>Vanille-Creme</value>
+  </data>
+  <data name="Form_RubyCream" xml:space="preserve">
+    <value>Ruby-Creme</value>
+  </data>
+  <data name="Form_MatchaCream" xml:space="preserve">
+    <value>Matcha-Creme</value>
+  </data>
+  <data name="Form_MintCream" xml:space="preserve">
+    <value>Minz-Creme</value>
+  </data>
+  <data name="Form_LemonCream" xml:space="preserve">
+    <value>Zitronen-Creme</value>
+  </data>
+  <data name="Form_SaltedCream" xml:space="preserve">
+    <value>Salz-Creme</value>
+  </data>
+  <data name="Form_RubySwirl" xml:space="preserve">
+    <value>Ruby-Mix</value>
+  </data>
+  <data name="Form_CaramelSwirl" xml:space="preserve">
+    <value>Karamell-Mix</value>
+  </data>
+  <data name="Form_RainbowSwirl" xml:space="preserve">
+    <value>Trio-Mix</value>
+  </data>
+  <data name="Form_StrawberrySweet" xml:space="preserve">
+    <value>Zucker-Erdbeere</value>
+  </data>
+  <data name="Form_LoveSweet" xml:space="preserve">
+    <value>Zucker-Herz</value>
+  </data>
+  <data name="Form_BerrySweet" xml:space="preserve">
+    <value>Zucker-Beere</value>
+  </data>
+  <data name="Form_CloverSweet" xml:space="preserve">
+    <value>Zucker-Kleeblatt</value>
+  </data>
+  <data name="Form_FlowerSweet" xml:space="preserve">
+    <value>Zucker-Blume</value>
+  </data>
+  <data name="Form_StarSweet" xml:space="preserve">
+    <value>Zucker-Stern</value>
+  </data>
+  <data name="Form_RibbonSweet" xml:space="preserve">
+    <value>Zucker-Schleife</value>
+  </data>
+</root>

@@ -1,0 +1,29 @@
+﻿<Window x:Class="PokeFortune.GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:core="clr-namespace:PokeFortune.Core;assembly=PokeFortune.Core"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:prism="http://prismlibrary.com/"
+        Title="{Binding Title}"
+        MinWidth="400"
+        MinHeight="300"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{materialDesign:MaterialDesignFont}"
+        TextElement.FontSize="14"
+        TextElement.FontWeight="Medium"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        WindowStartupLocation="CenterScreen"
+        WindowState="Maximized">
+	<!--  Icon="{Binding Source={x:Static core:IconPool.LOGO}}"  -->
+
+	<Window.Resources>
+		<Style TargetType="ContextMenu">
+			<Setter Property="Background" Value="{DynamicResource MaterialDesignPaper}" />
+		</Style>
+	</Window.Resources>
+
+	<Grid>
+		<ContentControl prism:RegionManager.RegionName="{x:Static core:RegionNames.ContentRegion}" />
+	</Grid>
+</Window>

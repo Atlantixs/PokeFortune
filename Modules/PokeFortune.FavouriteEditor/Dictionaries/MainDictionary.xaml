@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:PokeFortune.FavouriteEditor.Dictionaries">
+
+	<ResourceDictionary.MergedDictionaries>
+		<ResourceDictionary Source="/PokeFortune.FavouriteEditor;component/Dictionaries/ConverterDictionary.xaml" />
+	</ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>

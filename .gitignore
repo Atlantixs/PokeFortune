@@ -1,0 +1,15 @@
+.vs/
+Modules/PokeFortune.FavouriteEditor/bin/
+Modules/PokeFortune.FavouriteEditor/obj/
+PokeFortune.Core/bin/
+PokeFortune.Core/obj/
+PokeFortune.Data/bin/
+PokeFortune.Data/obj/
+PokeFortune/bin/
+PokeFortune/obj/
+Services/PokeFortune.Services.Interfaces/bin/
+Services/PokeFortune.Services.Interfaces/obj/
+Services/PokeFortune.Services/bin/
+Services/PokeFortune.Services/obj/
+Tests/PokeFortune.Modules.ModuleName.Tests/bin/
+Tests/PokeFortune.Modules.ModuleName.Tests/obj/
