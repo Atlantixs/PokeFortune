@@ -8,20 +8,10 @@
         MinWidth="400"
         MinHeight="300"
         prism:ViewModelLocator.AutoWireViewModel="True"
-        Background="{DynamicResource MaterialDesignPaper}"
-        FontFamily="{materialDesign:MaterialDesignFont}"
-        TextElement.FontSize="14"
-        TextElement.FontWeight="Medium"
-        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Style="{StaticResource MaterialWindowDesign}"
         WindowStartupLocation="CenterScreen"
         WindowState="Maximized">
 	<!--  Icon="{Binding Source={x:Static core:IconPool.LOGO}}"  -->
-
-	<Window.Resources>
-		<Style TargetType="ContextMenu">
-			<Setter Property="Background" Value="{DynamicResource MaterialDesignPaper}" />
-		</Style>
-	</Window.Resources>
 
 	<Grid>
 		<ContentControl prism:RegionManager.RegionName="{x:Static core:RegionNames.ContentRegion}" />

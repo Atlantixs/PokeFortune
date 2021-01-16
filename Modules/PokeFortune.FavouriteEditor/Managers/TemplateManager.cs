@@ -15,10 +15,36 @@ using PokeFortune.Core.Helpers;
 using System.Diagnostics;
 using System.Threading.Tasks;
 using PokeFortune.FavouriteEditor.Models;
+using System.IO;
+using System.Drawing.Imaging;
+using System.Windows.Forms;
 
 namespace PokeFortune.FavouriteEditor.Managers
 {
-	public class TemplateManager : BindableBase
+	public interface ITemplateManager
+	{
+		List<RowType> GenerationRows { get; }
+		RowType SelectedRow { get; set; }
+
+		List<ColumnType> PokemonColumns { get; }
+		ColumnType SelectedColumn { get; set; }
+
+		FortuneCollection<PokeCell> PokemonCollection { get; }
+		PokeCell SelectedPokemon { get; set; }
+		BitmapSource CurrentImage { get; }
+
+		bool ShinyMode { get; set; }
+
+		public void NextColumn();
+		public void PreviousColumn();
+		public void NextRow();
+		public void PreviousRow();
+
+		public void SaveTable();
+		public void ResetTable();
+	}
+
+	public class TemplateManager : BindableBase, ITemplateManager
 	{
 		private readonly List<PokeCell> _allPokes = new List<PokeCell>();
 
@@ -340,7 +366,6 @@ namespace PokeFortune.FavouriteEditor.Managers
 
 		private void UpdateTable()
 		{
-			var time = Stopwatch.StartNew();
 			_currentTemplate = (Bitmap)MediaHelper.ConvertToImage(CoreIconPool.FAVOURITE_TABLE);
 
 			var height = StartHeight;
@@ -374,8 +399,6 @@ namespace PokeFortune.FavouriteEditor.Managers
 			}
 
 			CurrentImage = MediaHelper.ConvertToBitmapImage(_currentTemplate);
-			time.Stop();
-			Debug.WriteLine($"Tabelle wurde upgedatet {time.Elapsed} sec");
 		}
 
 		private void AddCurrentPokemonToTable(PokeCell poke)
@@ -440,6 +463,50 @@ namespace PokeFortune.FavouriteEditor.Managers
 
 			if (updateTable)
 				CurrentImage = MediaHelper.ConvertToBitmapImage(_currentTemplate);
+		}
+
+		public void SaveTable()
+		{
+			FileStream fs;
+			SaveFileDialog saveFileDialog = new SaveFileDialog();
+
+			saveFileDialog.Filter = "Png (*.png)|*.png|JPeg (*.jpeg)|*.jpeg|Bitmap (*.bmp)|*.bmp";
+			saveFileDialog.Title = "Speichern"; //Properties.Resources._str_SaveAnImage;
+
+			if (saveFileDialog.ShowDialog() == DialogResult.OK)
+			{
+				if ((fs = (FileStream)saveFileDialog.OpenFile()) != null)
+				{
+					ImageFormat imageFormat = null;
+					BitmapEncoder encoder = null;
+
+					switch (saveFileDialog.FilterIndex)
+					{
+						case 1:
+							imageFormat = ImageFormat.Png;
+							encoder = new PngBitmapEncoder();
+							break;
+
+						case 2:
+							imageFormat = ImageFormat.Jpeg;
+							encoder = new JpegBitmapEncoder();
+							break;
+
+						case 3:
+							imageFormat = ImageFormat.Bmp;
+							encoder = new BmpBitmapEncoder();
+							break;
+					}
+
+					if (imageFormat != null && encoder != null)
+					{
+						encoder.Frames.Add(BitmapFrame.Create(CurrentImage));
+						encoder.Save(fs);
+					}
+
+					fs.Close();
+				}
+			}
 		}
 
 		public void ResetTable()

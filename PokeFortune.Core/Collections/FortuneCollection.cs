@@ -18,22 +18,17 @@ namespace PokeFortune.Core.Collections
 		public FortuneCollection(IEnumerable<T> collection) : base(collection)
 		{ }
 
-		private bool _enableNotification = true;
+		protected bool _enableNotification = true;
 		public bool EnableNotification
 		{
-			get
-			{
-				return _enableNotification;
-			}
+			get => _enableNotification;
 			set
 			{
 				if (_enableNotification != value)
 				{
 					_enableNotification = value;
 					if (value)
-					{
 						OnCollectionChanged(new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Reset));
-					}
 				}
 			}
 		}
@@ -52,9 +47,8 @@ namespace PokeFortune.Core.Collections
 			_enableNotification = false;
 
 			foreach (T item in list)
-			{
 				Add(item);
-			}
+
 			_enableNotification = true;
 			OnCollectionChanged(new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Reset));
 		}
@@ -67,9 +61,8 @@ namespace PokeFortune.Core.Collections
 			_enableNotification = false;
 
 			foreach (var item in list.Reverse())
-			{
 				Remove(item);
-			}
+
 			_enableNotification = true;
 			OnCollectionChanged(new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Reset));
 		}

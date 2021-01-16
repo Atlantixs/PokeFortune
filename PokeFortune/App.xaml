@@ -16,6 +16,15 @@
 				<ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Dark.xaml" />
 				<ResourceDictionary Source="/Dictionaries/CoreDictionary.xaml" />
 			</ResourceDictionary.MergedDictionaries>
+
+			<Style x:Key="MaterialWindowDesign" TargetType="Window">
+				<Setter Property="Background" Value="{DynamicResource MaterialDesignPaper}" />
+				<Setter Property="FontFamily" Value="{materialDesign:MaterialDesignFont}" />
+				<Setter Property="TextElement.FontSize" Value="14" />
+				<Setter Property="TextElement.FontWeight" Value="Medium" />
+				<Setter Property="TextElement.Foreground" Value="{DynamicResource MaterialDesignBody}" />
+			</Style>
+
 		</ResourceDictionary>
 
 	</Application.Resources>

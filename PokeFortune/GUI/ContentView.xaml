@@ -13,7 +13,7 @@
              mc:Ignorable="d">
 
 	<DockPanel>
-		<!--<Menu x:Name="mainMenu"
+		<Menu x:Name="mainMenu"
 		      DockPanel.Dock="Top"
 		      IsMainMenu="True"
 		      ItemsSource="{Binding MenuManager.MenuItems}">
@@ -25,9 +25,7 @@
 					<Setter Property="Header" Value="{Binding Header}" />
 					<Setter Property="Command" Value="{Binding Command}" />
 					<Setter Property="CommandParameter" Value="{Binding CommandParameter}" />
-					-->
-		<!--<Setter Property="InputGestureText" Value="{Binding InputGestureText}" />-->
-		<!--
+					<!--<Setter Property="InputGestureText" Value="{Binding InputGestureText}" />-->
 					<Setter Property="Visibility" Value="{Binding IsVisible, Converter={StaticResource BoolToVisCollapsedConverter}}" />
 					<Setter Property="ItemsSource" Value="{Binding MenuItems}" />
 					<Style.Triggers>
@@ -43,7 +41,7 @@
 					</Style.Triggers>
 				</Style>
 			</Menu.ItemContainerStyle>
-		</Menu>-->
+		</Menu>
 
 		<ContentControl prism:RegionManager.RegionName="{x:Static core:RegionNames.ModuleRegion}" />
 	</DockPanel>

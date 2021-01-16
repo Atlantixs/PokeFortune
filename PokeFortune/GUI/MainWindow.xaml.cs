@@ -9,7 +9,7 @@ namespace PokeFortune.GUI
 	{
 		public MainWindow()
 		{
-			InitializeComponent();
+		InitializeComponent();
 		}
 	}
 }

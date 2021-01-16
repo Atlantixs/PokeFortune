@@ -61,6 +61,15 @@ namespace PokeFortune.Core.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Über PokeFortune.
+        /// </summary>
+        public static string AboutPokeFortune {
+            get {
+                return ResourceManager.GetString("AboutPokeFortune", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Achte Generation.
         /// </summary>
         public static string EighthGen {
@@ -102,6 +111,15 @@ namespace PokeFortune.Core.Properties {
         public static string FourthGen {
             get {
                 return ResourceManager.GetString("FourthGen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hilfe.
+        /// </summary>
+        public static string Help {
+            get {
+                return ResourceManager.GetString("Help", resourceCulture);
             }
         }
         

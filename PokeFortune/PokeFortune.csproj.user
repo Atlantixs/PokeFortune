@@ -10,6 +10,9 @@
     <Compile Update="GUI\ContentView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="GUI\Dialogs\AboutDialogView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Dictionaries\ConverterDictionary.xaml">
@@ -18,7 +21,13 @@
     <Page Update="Dictionaries\CoreDictionary.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Dictionaries\StyleDictionary.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="GUI\ContentView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GUI\Dialogs\AboutDialogView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="GUI\MainWindow.xaml">
