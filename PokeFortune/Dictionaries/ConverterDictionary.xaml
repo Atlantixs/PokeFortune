@@ -4,6 +4,7 @@
                     xmlns:local="clr-namespace:PokeFortune.Dictionaries">
 
 	<conv:PokemonTypeToColorConverter x:Key="PokemonTypeToColorConverter" />
+	<conv:PokemonTypeToBackgroundColorConverter x:Key="PokemonTypeToBackgroundColorConverter" />
 
 	<conv:BoolToVisConverter x:Key="BoolToVisCollapsedConverter"
 	                         Collapsed="True"

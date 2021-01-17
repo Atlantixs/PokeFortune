@@ -2,13 +2,17 @@
 	
 	<PropertyGroup>
 		<TargetFramework>net5.0</TargetFramework>
-		<AssemblyName>PokeFortune.Data</AssemblyName>
-  </PropertyGroup>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	</PropertyGroup>
 
 	<ItemGroup>
 		<Resource Include="Resources\**\*.png">
 			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
 		</Resource>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Include="..\PokeFortune\Properties\CommonAssemblyInfo.cs" Link="Properties\CommonAssemblyInfo.cs" />
 	</ItemGroup>
 	
   <ItemGroup>

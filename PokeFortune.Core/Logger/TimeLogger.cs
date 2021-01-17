@@ -1,51 +1,125 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace PokeFortune.Core.Logger
 {
 	public class TimeLogger
 	{
-		private readonly Stopwatch _stopwatch = new Stopwatch();
-		private TimeSpan _fullTime = new TimeSpan();
-
-		private readonly StringBuilder _sb = new StringBuilder();
-
-		public static TimeLogger StartNew()
+		public static TimeLogger StartNewTimer([CallerMemberName] string actionName = "")
 		{
-			var time = new TimeLogger();
-
-			time.Start();
-
-			return time;
+			var timeLogger = new TimeLogger();
+			timeLogger.ResetTimer();
+			timeLogger.StartTimer(actionName);
+			return timeLogger;
 		}
 
-
-		public void Start()
+		public TimeLogger()
 		{
-			_stopwatch.Start();
-			_fullTime = new TimeSpan();
+			_stopWatch = new Stopwatch();
+			_sb = new StringBuilder();
 		}
 
-		public void Time(string action)
+		private readonly string _seperator = "********************";
+
+		private readonly Stopwatch _stopWatch;
+		private readonly StringBuilder _sb;
+		private TimeSpan _totalTime;
+
+		private bool _timerStarted = false;
+
+		/// <summary>
+		/// Startet den Timer.
+		/// </summary>
+		/// <param name="actionName"></param>
+		public void StartTimer([CallerMemberName] string actionName = "")
 		{
-			_stopwatch.Stop();
-			_sb.Append($"TIME '{action}': {_stopwatch.Elapsed} sec\n");
-			_fullTime += _stopwatch.Elapsed;
-			_stopwatch.Restart();
+#if DEBUG
+			if (!_timerStarted)
+			{
+				_sb.Append($"{_seperator} {actionName}\n");
+
+				_timerStarted = true;
+				_stopWatch.Start();
+			}
+#endif
 		}
 
-		public void Stop()
+		/// <summary>
+		/// Stopt den Timer und resettet ihn.
+		/// </summary>
+		public void ResetTimer()
 		{
-			_stopwatch.Stop();
-			_fullTime += _stopwatch.Elapsed;
-			_sb.Append($"************ 'Gesamt': {_fullTime} sec");
-			Debug.WriteLine(_sb.ToString());
-			_stopwatch.Reset();
+#if DEBUG
+			StopTimer();
+
+			_stopWatch.Reset();
+			_sb.Clear();
+			_totalTime = new TimeSpan();
+#endif
 		}
 
+		/// <summary>
+		/// Stopt den Timer, resettet ihn und startet neu.
+		/// </summary>
+		/// <param name="actionName"></param>
+		public void RestartTimer([CallerMemberName] string actionName = "")
+		{
+#if DEBUG
+			ResetTimer();
+
+			StartTimer(actionName);
+#endif
+		}
+
+		/// <summary>
+		/// Stop den Timer und loggt die Zeit.
+		/// </summary>
+		public void StopTimer()
+		{
+#if DEBUG
+			if (_timerStarted)
+			{
+				_stopWatch.Stop();
+				_totalTime += _stopWatch.Elapsed;
+				_timerStarted = false;
+
+				_sb.Append($"{_seperator} Gesamt-Zeit: {_totalTime.TotalSeconds} sec");
+				Debug.Print(_sb.ToString());
+			}
+#endif
+		}
+
+		/// <summary>
+		/// Setzt eine Zwischenzeit (Zeit schreitet weiter voran)
+		/// </summary>
+		/// <param name="roundName">max. 40 Zeichen</param>
+		public void SetRound(string roundName)
+		{
+#if DEBUG
+			if (_timerStarted)
+			{
+				_sb.Append($"Round '{string.Format("{0,40}", roundName)}': {_stopWatch.Elapsed} sec\n");
+			}
+#endif
+		}
+
+		/// <summary>
+		/// Setzt eine Zwischenzeit (Zeit wird neu gestartet)
+		/// </summary>
+		/// <param name="timeName">max. 40 Zeichen</param>
+		public void SetTime(string timeName)
+		{
+#if DEBUG
+			if (_timerStarted)
+			{
+				_stopWatch.Stop();
+				_totalTime += _stopWatch.Elapsed;
+				_sb.Append($"TIME '{string.Format("{0,40}", timeName)}': {_stopWatch.Elapsed} sec\n");
+				_stopWatch.Restart();
+			}
+#endif
+		}
 	}
 }

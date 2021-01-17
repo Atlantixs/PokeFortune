@@ -10,7 +10,7 @@ namespace PokeFortune.Core.Models
 	{
 		public FortuneMenuItem(ModuleType moduleType, bool isSeperator = false)
 		{
-			_moduleType = ModuleType;
+			_moduleType = moduleType;
 			IsSeparator = isSeperator;
 		}
 
@@ -30,8 +30,14 @@ namespace PokeFortune.Core.Models
 		public bool IsChecked
 		{
 			get => _isChecked;
-			set => SetProperty(ref _isChecked, value);
+			set
+			{
+				if (SetProperty(ref _isChecked, value))
+					UpdateChecked?.Invoke(value);
+			}
 		}
+
+		public Action<bool> UpdateChecked { get; set; }
 
 		private Uri _icon = null;
 		public Uri Icon

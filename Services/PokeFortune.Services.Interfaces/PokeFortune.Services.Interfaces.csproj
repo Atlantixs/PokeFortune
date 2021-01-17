@@ -2,7 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0-windows</TargetFramework>
-  </PropertyGroup>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\PokeFortune\Properties\CommonAssemblyInfo.cs" Link="Properties\CommonAssemblyInfo.cs" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\PokeFortune.Core\PokeFortune.Core.csproj" />

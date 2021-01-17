@@ -13,3 +13,5 @@ Services/PokeFortune.Services/bin/
 Services/PokeFortune.Services/obj/
 Tests/PokeFortune.Modules.ModuleName.Tests/bin/
 Tests/PokeFortune.Modules.ModuleName.Tests/obj/
+PokeFortune.Setup/bin/
+PokeFortune.Setup/obj/

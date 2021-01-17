@@ -13,6 +13,10 @@ namespace PokeFortune.Services
 		public void UpdateMenuItems(ModuleType moduleType)
 		{
 			UpdateMenuItemsRecursive(moduleType, MenuItems);
+
+			var orderedList = MenuItems.OrderByDescending(x => x.ModuleType).ToList();
+			MenuItems.Clear();
+			MenuItems.AddRange(orderedList);
 		}
 
 		private void UpdateMenuItemsRecursive(ModuleType moduleType, FortuneCollection<FortuneMenuItem> menuItems)

@@ -1,6 +1,8 @@
-﻿using PokeFortune.Data;
+﻿using PokeFortune.Core;
+using PokeFortune.Data;
 using PokeFortune.FavouriteEditor;
 using PokeFortune.GUI;
+using PokeFortune.GUI.Dialogs;
 using PokeFortune.Services;
 using PokeFortune.Services.Interfaces;
 using Prism.Ioc;
@@ -25,7 +27,23 @@ namespace PokeFortune
 		protected override void RegisterTypes(IContainerRegistry containerRegistry)
 		{
 			containerRegistry.RegisterSingleton<IMenuManager, MenuManager>();
+
+			containerRegistry.RegisterDialog<AboutDialogView, AboutDialogViewModel>();
 		}
+
+		//protected override void InitializeModules()
+		//{
+		//	var splashScreen = new SplashScreen(CoreIconPool.POKE_FORTUNE.AbsoluteUri);
+		//	splashScreen.Show(false);
+		//	try
+		//	{
+		//		base.InitializeModules();
+		//	}
+		//	finally
+		//	{
+		//		splashScreen.Close(TimeSpan.Zero);
+		//	}
+		//}
 
 		protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
 		{

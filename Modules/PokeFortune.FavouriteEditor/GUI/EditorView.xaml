@@ -99,8 +99,8 @@
 								      MinHeight="128"
 								      HorizontalAlignment="Left"
 								      VerticalAlignment="Stretch">
-									<Rectangle Fill="{Binding Pokemon.FirstPokemonType, Converter={StaticResource PokemonTypeToColorConverter}}" />
-									<Polygon Fill="{Binding Pokemon.SecondPokemonType, Converter={StaticResource PokemonTypeToColorConverter}}"
+									<Rectangle Fill="{Binding Pokemon.FirstPokemonType, Converter={StaticResource PokemonTypeToBackgroundColorConverter}}" />
+									<Polygon Fill="{Binding Pokemon.SecondPokemonType, Converter={StaticResource PokemonTypeToBackgroundColorConverter}}"
 									         Points="1,0 1,1 0,1"
 									         Stretch="Fill" />
 									<StackPanel Orientation="Vertical">
@@ -142,7 +142,7 @@
 		</GroupBox>
 
 		<DockPanel Grid.Column="1">
-			<GroupBox Margin="2"
+			<!--<GroupBox Margin="2"
 			          DockPanel.Dock="Bottom"
 			          Header="{x:Static resx:Resources.Options}">
 				<StackPanel HorizontalAlignment="Left"
@@ -153,7 +153,7 @@
 
 					<CheckBox Content="Shiny-Modus" IsChecked="{Binding TemplateManager.ShinyMode, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
 				</StackPanel>
-			</GroupBox>
+			</GroupBox>-->
 
 			<GroupBox Margin="2" Header="{x:Static resx:Resources.Favourite}">
 				<Image RenderOptions.BitmapScalingMode="HighQuality"
