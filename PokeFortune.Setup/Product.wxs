@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi"><?define PokeFortune_TargetDir=$(var.PokeFortune.TargetDir)?><?define PokeFortune.Core_TargetDir=$(var.PokeFortune.Core.TargetDir)?><?define PokeFortune.Data_TargetDir=$(var.PokeFortune.Data.TargetDir)?><?define PokeFortune.Services_TargetDir=$(var.PokeFortune.Services.TargetDir)?><?define PokeFortune.Services.Interfaces_TargetDir=$(var.PokeFortune.Services.Interfaces.TargetDir)?><?define PokeFortune.FavouriteEditor_TargetDir=$(var.PokeFortune.FavouriteEditor.TargetDir)?>
+	<Product Id="6db0bb7d-04ae-4eb0-8aeb-a1189be1c371" Name="PokeFortune" Language="1033" Version="0.1.0.0" Manufacturer="Atlantixs" UpgradeCode="0b798f4c-6ae4-4c5c-a989-445c025442e7">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+		<Icon Id="icon.ico" SourceFile="$(var.ProjectDir)PokeFortune.ico" />
+		<Property Id="ARPPRODUCTICON" Value="icon.ico" />
+		<!--<UIRef Id="WixUI_Minimal" />-->
+		
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<MediaTemplate EmbedCab="yes"/>
+
+		<Feature Id="ProductFeature" Title="PokeFortune" Level="1">
+			<ComponentGroupRef Id="ProductComponents" />
+			<!--<ComponentRef Id="ApplicationShortcut" />-->
+			<ComponentRef Id="ApplicationShortcutDesktop" />
+		</Feature>
+	</Product>
+
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLFOLDER" Name="PokeFortune" />
+			</Directory>
+			<!--<Directory Id="ProgramMenuFolder">
+				<Directory Id="ApplicationProgramsFolder" Name="PokeFortune"/>
+			</Directory>-->
+			<Directory Id="DesktopFolder" Name="Desktop"/>
+		</Directory>
+	</Fragment>
+
+	<Fragment>
+		<!--<DirectoryRef Id="ApplicationProgramsFolder">
+			<Component Id="ApplicationShortcut" Guid="09c64a2c-66a4-4dc7-88a8-19dc1cc1a707">
+				<Shortcut Id="ApplicationStartMenuShortcut" Name="PokeFortune" Description="PokeFortune" Target="[INSTALLFOLDER]PokeFortune.exe" WorkingDirectory="INSTALLFOLDER" />
+				<RemoveFolder Id="RemoveApplicationProgramsFolder" Directory="ApplicationProgramsFolder" On="uninstall" />
+				<RegistryValue Root="HKCU" Key="Software\PokeFortune" Name="installed" Type="integer" Value="1" KeyPath="yes" />
+			</Component>
+		</DirectoryRef>-->
+		<DirectoryRef Id="DesktopFolder">
+			<Component Id="ApplicationShortcutDesktop" Guid="d82ba667-624b-48cd-8235-4141b28c6487">
+				<Shortcut Id="ApplicationDesktopShortcut" Name="PokeFortune" Description="PokeFortune" Target="[INSTALLFOLDER]PokeFortune.exe" WorkingDirectory="INSTALLFOLDER" />
+				<RemoveFolder Id="RemoveDesktopFolder" Directory="DesktopFolder" On="uninstall" />
+				<RegistryValue Root="HKCU" Key="Software\PokeFortune" Name="installed" Type="integer" Value="1" KeyPath="yes" />
+			</Component>
+		</DirectoryRef>
+	</Fragment>
+
+	<Fragment>
+		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+			<Component Id="PokeFortune.exe" Guid="c1d34fc3-9317-4e14-898d-c12a68c499f4">
+			  <File Id="PokeFortune.exe" Name="PokeFortune.exe" Source="$(var.PokeFortune_TargetDir)PokeFortune.exe" />
+			</Component>
+			<Component Id="PokeFortune.dll" Guid="f098c9d9-30e1-4ae5-8a8f-ae3d0c610f31">
+			  <File Id="PokeFortune.dll" Name="PokeFortune.dll" Source="$(var.PokeFortune_TargetDir)PokeFortune.dll" />
+			</Component>
+			<Component Id="PokeFortune.Core.dll" Guid="d990c1f9-6ad2-40db-97af-384bd11b3bf7">
+			  <File Id="PokeFortune.Core.dll" Name="PokeFortune.Core.dll" Source="$(var.PokeFortune.Core_TargetDir)PokeFortune.Core.dll" />
+			</Component>
+			<Component Id="PokeFortune.Data.dll" Guid="7b969763-735d-4c89-8687-3e55cc41f55c">
+			  <File Id="PokeFortune.Data.dll" Name="PokeFortune.Data.dll" Source="$(var.PokeFortune.Data_TargetDir)PokeFortune.Data.dll" />
+			</Component>
+			<Component Id="PokeFortune.Services.dll" Guid="ac8ad4ce-4997-4254-8267-6f50465f713f">
+			  <File Id="PokeFortune.Services.dll" Name="PokeFortune.Services.dll" Source="$(var.PokeFortune.Services_TargetDir)PokeFortune.Services.dll" />
+			</Component>
+			<Component Id="PokeFortune.Services.Interfaces.dll" Guid="61b35ccb-8209-47fc-8d4b-383126fedea4">
+			  <File Id="PokeFortune.Services.Interfaces.dll" Name="PokeFortune.Services.Interfaces.dll" Source="$(var.PokeFortune.Services.Interfaces_TargetDir)PokeFortune.Services.Interfaces.dll" />
+			</Component>
+			<Component Id="PokeFortune.FavouriteEditor.dll" Guid="d8087200-2fe9-4053-b87f-5df7984fc5c1">
+			  <File Id="PokeFortune.FavouriteEditor.dll" Name="PokeFortune.FavouriteEditor.dll" Source="$(var.PokeFortune.FavouriteEditor_TargetDir)PokeFortune.FavouriteEditor.dll" />
+			</Component>
+			<Component Id="PokeFortune.runtimeconfig.json" Guid="d125e858-9a1e-4730-991f-8732d19c739c">
+			  <File Id="PokeFortune.runtimeconfig.json" Name="PokeFortune.runtimeconfig.json" Source="$(var.PokeFortune_TargetDir)PokeFortune.runtimeconfig.json" />
+			</Component>
+			<Component Id="Microsoft.Xaml.Behaviors.dll" Guid="5bce7d11-62a1-4619-acf7-b5e7cee7adae">
+			  <File Id="Microsoft.Xaml.Behaviors.dll" Name="Microsoft.Xaml.Behaviors.dll" Source="$(var.PokeFortune_TargetDir)Microsoft.Xaml.Behaviors.dll" />
+			</Component>
+			<Component Id="MaterialDesignColors.dll" Guid="205fbfe9-6197-44c0-b609-2902c5c79c03">
+			  <File Id="MaterialDesignColors.dll" Name="MaterialDesignColors.dll" Source="$(var.PokeFortune_TargetDir)MaterialDesignColors.dll" />
+			</Component>
+			<Component Id="MaterialDesignThemes.Wpf.dll" Guid="604aef66-09b0-497b-9fd8-593a4d134749">
+			  <File Id="MaterialDesignThemes.Wpf.dll" Name="MaterialDesignThemes.Wpf.dll" Source="$(var.PokeFortune_TargetDir)MaterialDesignThemes.Wpf.dll" />
+			</Component>
+			<Component Id="Prism.dll" Guid="c3cfcb5d-5af1-4906-8208-9ee3ed0e1362">
+			  <File Id="Prism.dll" Name="Prism.dll" Source="$(var.PokeFortune_TargetDir)Prism.dll" />
+			</Component>
+			<Component Id="Prism.Unity.Wpf.dll" Guid="aee5c061-373e-4920-a02e-62438d706728">
+			  <File Id="Prism.Unity.Wpf.dll" Name="Prism.Unity.Wpf.dll" Source="$(var.PokeFortune_TargetDir)Prism.Unity.Wpf.dll" />
+			</Component>
+			<Component Id="Prism.Wpf.dll" Guid="43b219b6-9921-45f0-a0fc-500665e7bb39">
+			  <File Id="Prism.Wpf.dll" Name="Prism.Wpf.dll" Source="$(var.PokeFortune_TargetDir)Prism.Wpf.dll" />
+			</Component>
+			<Component Id="Unity.Abstractions.dll" Guid="e832cea4-e653-4b9a-8680-e1ca7d5ef555">
+			  <File Id="Unity.Abstractions.dll" Name="Unity.Abstractions.dll" Source="$(var.PokeFortune_TargetDir)Unity.Abstractions.dll" />
+			</Component>
+			<Component Id="Unity.Container.dll" Guid="b3f85b9f-b3ab-4da0-acd9-ac8db6f35546">
+			  <File Id="Unity.Container.dll" Name="Unity.Container.dll" Source="$(var.PokeFortune_TargetDir)Unity.Container.dll" />
+			</Component>
+		</ComponentGroup>
+	</Fragment>
+</Wix>

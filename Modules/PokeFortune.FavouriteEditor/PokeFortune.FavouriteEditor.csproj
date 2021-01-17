@@ -3,8 +3,8 @@
     <TargetFramework>net5.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
 		<UseWindowsForms>true</UseWindowsForms>
-    <AssemblyName>PokeFortune.FavouriteEditor</AssemblyName>
-  </PropertyGroup>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	</PropertyGroup>
   <ItemGroup>
     <PackageReference Include="CommonServiceLocator" Version="2.0.5" />
     <PackageReference Include="Prism.Wpf" Version="8.0.0.1909" />
@@ -19,5 +19,8 @@
 		<Resource Include="Resources\**\*.png">
 			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
 		</Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\PokeFortune\Properties\CommonAssemblyInfo.cs" Link="Properties\CommonAssemblyInfo.cs" />
   </ItemGroup>
 </Project>

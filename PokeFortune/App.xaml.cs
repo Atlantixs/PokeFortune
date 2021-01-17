@@ -1,4 +1,5 @@
-﻿using PokeFortune.Data;
+﻿using PokeFortune.Core;
+using PokeFortune.Data;
 using PokeFortune.FavouriteEditor;
 using PokeFortune.GUI;
 using PokeFortune.GUI.Dialogs;
@@ -29,6 +30,20 @@ namespace PokeFortune
 
 			containerRegistry.RegisterDialog<AboutDialogView, AboutDialogViewModel>();
 		}
+
+		//protected override void InitializeModules()
+		//{
+		//	var splashScreen = new SplashScreen(CoreIconPool.POKE_FORTUNE.AbsoluteUri);
+		//	splashScreen.Show(false);
+		//	try
+		//	{
+		//		base.InitializeModules();
+		//	}
+		//	finally
+		//	{
+		//		splashScreen.Close(TimeSpan.Zero);
+		//	}
+		//}
 
 		protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
 		{

@@ -3,9 +3,11 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
-    <AssemblyName>PokeFortune</AssemblyName>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
+  <ItemGroup>
+    <None Remove="PokeFortune.png" />
+  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MaterialDesignThemes" Version="3.2.0" />
     <PackageReference Include="Prism.Unity" Version="8.0.0.1909" />
@@ -16,6 +18,9 @@
     <ProjectReference Include="..\PokeFortune.Data\PokeFortune.Data.csproj" />
     <ProjectReference Include="..\Services\PokeFortune.Services.Interfaces\PokeFortune.Services.Interfaces.csproj" />
     <ProjectReference Include="..\Services\PokeFortune.Services\PokeFortune.Services.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <SplashScreen Include="PokeFortune.png" />
   </ItemGroup>
   <ItemGroup>
     <Page Update="Dictionaries\ConverterDictionary.xaml">
