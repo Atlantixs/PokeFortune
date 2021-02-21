@@ -8,18 +8,30 @@ namespace PokeFortune.Services
 {
 	public class MenuManager : IMenuManager
 	{
-		public FortuneCollection<FortuneMenuItem> MenuItems { get; } = new FortuneCollection<FortuneMenuItem>();
+		public MenuManager()
+		{
+			MenuItems = new SortableCollection<FortuneMenuItem>();
+			MenuItems.Comparison = new System.Comparison<FortuneMenuItem>((x, y) =>
+			{
+				if (x.ModuleType > y.ModuleType)
+					return -1;
+				else if (x.ModuleType < y.ModuleType)
+					return 1;
+				else
+					return 0;
+			});
+
+			MenuItems.AutomaticSort = true;
+		}
+
+		public SortableCollection<FortuneMenuItem> MenuItems { get; }
 
 		public void UpdateMenuItems(ModuleType moduleType)
 		{
 			UpdateMenuItemsRecursive(moduleType, MenuItems);
-
-			var orderedList = MenuItems.OrderByDescending(x => x.ModuleType).ToList();
-			MenuItems.Clear();
-			MenuItems.AddRange(orderedList);
 		}
 
-		private void UpdateMenuItemsRecursive(ModuleType moduleType, FortuneCollection<FortuneMenuItem> menuItems)
+		private void UpdateMenuItemsRecursive(ModuleType moduleType, SortableCollection<FortuneMenuItem> menuItems)
 		{
 			//foreach(var item in menuItems)
 			//{

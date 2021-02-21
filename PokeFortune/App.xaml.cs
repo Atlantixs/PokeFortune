@@ -1,15 +1,18 @@
-﻿using PokeFortune.Core;
-using PokeFortune.Data;
+﻿using PokeFortune.Data;
 using PokeFortune.FavouriteEditor;
 using PokeFortune.GUI;
 using PokeFortune.GUI.Dialogs;
+using PokeFortune.Models;
 using PokeFortune.Services;
 using PokeFortune.Services.Interfaces;
 using Prism.Ioc;
 using Prism.Modularity;
 using Prism.Mvvm;
 using System;
+using System.Globalization;
+using System.IO;
 using System.Reflection;
+using System.Threading;
 using System.Windows;
 
 namespace PokeFortune
@@ -19,6 +22,16 @@ namespace PokeFortune
 	/// </summary>
 	public partial class App
 	{
+		protected override void OnStartup(StartupEventArgs e)
+		{
+			var sett = Settings.GetCurrentSettings();
+
+			Thread.CurrentThread.CurrentCulture = new CultureInfo(sett.Culture);
+			Thread.CurrentThread.CurrentUICulture = new CultureInfo(sett.Culture);
+
+			base.OnStartup(e);
+		}
+
 		protected override Window CreateShell()
 		{
 			return Container.Resolve<MainWindow>();

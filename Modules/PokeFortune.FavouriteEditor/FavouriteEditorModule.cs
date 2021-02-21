@@ -1,5 +1,4 @@
-﻿using CommonServiceLocator;
-using PokeFortune.Core;
+﻿using PokeFortune.Core;
 using PokeFortune.Core.Enums;
 using PokeFortune.Core.Models;
 using PokeFortune.Core.Properties;
@@ -10,7 +9,6 @@ using Prism.Commands;
 using Prism.Ioc;
 using Prism.Modularity;
 using Prism.Regions;
-using System.Windows.Data;
 
 namespace PokeFortune.FavouriteEditor
 {
@@ -42,12 +40,12 @@ namespace PokeFortune.FavouriteEditor
 		{
 			var file = new FortuneMenuItem(ModuleType.FavouriteEditor)
 			{
-				Header = "Datei"
+				Header = Resources.File
 			};
 
 			file.MenuItems.Add(new FortuneMenuItem(ModuleType.FavouriteEditor)
 			{
-				Header = "Neu",
+				Header = Resources.New,
 				Command = new DelegateCommand(templateManager.ResetTable)
 			});
 
@@ -60,7 +58,7 @@ namespace PokeFortune.FavouriteEditor
 
 			file.MenuItems.Add(new FortuneMenuItem(ModuleType.FavouriteEditor)
 			{
-				Header = "Speichern",
+				Header = Resources.Save,
 				Command = new DelegateCommand(templateManager.SaveTable)
 			});
 
@@ -76,7 +74,7 @@ namespace PokeFortune.FavouriteEditor
 
 			options.MenuItems.Add(new FortuneMenuItem(ModuleType.FavouriteEditor)
 			{
-				Header = "Shiny-Modus",
+				Header = Resources.ShinyMode,
 				IsCheckable = true,
 				IsChecked = templateManager.ShinyMode,
 				UpdateChecked = (bool isChecked) => templateManager.ShinyMode = isChecked

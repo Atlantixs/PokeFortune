@@ -6,7 +6,7 @@ namespace PokeFortune.Services.Interfaces
 {
 	public interface IMenuManager
 	{
-		public FortuneCollection<FortuneMenuItem> MenuItems { get; }
+		public SortableCollection<FortuneMenuItem> MenuItems { get; }
 
 		public void UpdateMenuItems(ModuleType moduleType);
 	}

@@ -1,8 +1,5 @@
 ﻿using PokeFortune.Data.Enums;
 using PokeFortune.Data.Models;
-using PokeFortune.FavouriteEditor.Enums;
-using Prism.Mvvm;
-using System;
 
 namespace PokeFortune.FavouriteEditor.Models
 {

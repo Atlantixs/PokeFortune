@@ -1,23 +1,22 @@
 ﻿using PokeFortune.Core;
 using PokeFortune.Core.Collections;
 using PokeFortune.Core.Extensions;
+using PokeFortune.Core.Helpers;
+using PokeFortune.Core.Properties;
 using PokeFortune.Data;
 using PokeFortune.Data.Enums;
-using PokeFortune.Data.Models;
 using PokeFortune.FavouriteEditor.Enums;
+using PokeFortune.FavouriteEditor.Models;
 using Prism.Mvvm;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Drawing;
-using System.Windows.Media.Imaging;
-using PokeFortune.Core.Helpers;
-using System.Diagnostics;
-using System.Threading.Tasks;
-using PokeFortune.FavouriteEditor.Models;
-using System.IO;
 using System.Drawing.Imaging;
+using System.IO;
+using System.Linq;
+using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Media.Imaging;
 
 namespace PokeFortune.FavouriteEditor.Managers
 {
@@ -406,6 +405,8 @@ namespace PokeFortune.FavouriteEditor.Managers
 			if (poke == null)
 				return;
 
+			var t = Path.GetFileName(poke.Pokemon.Sprite.AbsoluteUri);
+
 			var width = StartWidth + (((int)SelectedColumn) * (BoxWidth + VerticalBorderThickness));
 			var height = StartHeight + (((int)SelectedRow) * (BoxHeight + HorizontalBorderThickness));
 
@@ -471,7 +472,7 @@ namespace PokeFortune.FavouriteEditor.Managers
 			SaveFileDialog saveFileDialog = new SaveFileDialog();
 
 			saveFileDialog.Filter = "Png (*.png)|*.png|JPeg (*.jpeg)|*.jpeg|Bitmap (*.bmp)|*.bmp";
-			saveFileDialog.Title = "Speichern"; //Properties.Resources._str_SaveAnImage;
+			saveFileDialog.Title = Resources.Save;
 
 			if (saveFileDialog.ShowDialog() == DialogResult.OK)
 			{

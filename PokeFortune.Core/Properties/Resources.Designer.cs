@@ -97,6 +97,15 @@ namespace PokeFortune.Core.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Datei.
+        /// </summary>
+        public static string File {
+            get {
+                return ResourceManager.GetString("File", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Erste Generation.
         /// </summary>
         public static string FirstGen {
@@ -124,11 +133,29 @@ namespace PokeFortune.Core.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Sprache.
+        /// </summary>
+        public static string Language {
+            get {
+                return ResourceManager.GetString("Language", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Legendäre.
         /// </summary>
         public static string Legendary {
             get {
                 return ResourceManager.GetString("Legendary", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Neu.
+        /// </summary>
+        public static string New {
+            get {
+                return ResourceManager.GetString("New", resourceCulture);
             }
         }
         
@@ -183,6 +210,15 @@ namespace PokeFortune.Core.Properties {
         public static string SeventhGen {
             get {
                 return ResourceManager.GetString("SeventhGen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Shiny-Modus.
+        /// </summary>
+        public static string ShinyMode {
+            get {
+                return ResourceManager.GetString("ShinyMode", resourceCulture);
             }
         }
         

@@ -1,7 +1,6 @@
 ﻿using PokeFortune.Data.Enums;
 using PokeFortune.Data.Helpers;
 using PokeFortune.Data.Properties;
-using System;
 using System.Collections.Generic;
 
 namespace PokeFortune.Data.Models

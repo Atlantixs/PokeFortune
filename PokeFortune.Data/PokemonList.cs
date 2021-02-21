@@ -1,8 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using PokeFortune.Data.Enums;
+using PokeFortune.Data.Models;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
-using PokeFortune.Data.Enums;
-using PokeFortune.Data.Models;
 using resx = PokeFortune.Data.Properties.Resources;
 
 namespace PokeFortune.Data

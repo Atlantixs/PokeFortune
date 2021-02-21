@@ -222,4 +222,16 @@
   <data name="AboutPokeFortune" xml:space="preserve">
     <value>Über PokeFortune</value>
   </data>
+  <data name="File" xml:space="preserve">
+    <value>Datei</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>Neu</value>
+  </data>
+  <data name="ShinyMode" xml:space="preserve">
+    <value>Shiny-Modus</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
 </root>
