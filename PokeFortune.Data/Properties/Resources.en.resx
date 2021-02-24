@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<!-- 
+  <!-- 
 		Microsoft ResX Schema
 
 		Version 1.3
@@ -58,46 +58,45 @@
 			: using a System.ComponentModel.TypeConverter
 			: and then encoded with base64 encoding.
 	-->
-	
-	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-		<xsd:element name="root" msdata:IsDataSet="true">
-			<xsd:complexType>
-				<xsd:choice maxOccurs="unbounded">
-					<xsd:element name="data">
-						<xsd:complexType>
-							<xsd:sequence>
-								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-							</xsd:sequence>
-							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
-							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-						</xsd:complexType>
-					</xsd:element>
-					<xsd:element name="resheader">
-						<xsd:complexType>
-							<xsd:sequence>
-								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-							</xsd:sequence>
-							<xsd:attribute name="name" type="xsd:string" use="required" />
-						</xsd:complexType>
-					</xsd:element>
-				</xsd:choice>
-			</xsd:complexType>
-		</xsd:element>
-	</xsd:schema>
-	<resheader name="resmimetype">
-		<value>text/microsoft-resx</value>
-	</resheader>
-	<resheader name="version">
-		<value>1.3</value>
-	</resheader>
-	<resheader name="reader">
-		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-	</resheader>
-	<resheader name="writer">
-		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-	</resheader>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
   <data name="Poke_Missingno" xml:space="preserve">
     <value>Missingno.</value>
   </data>
@@ -2794,5 +2793,542 @@
   </data>
   <data name="Poke_Coronospa" xml:space="preserve">
     <value>Calyrex</value>
+  </data>
+  <data name="Form_Mega" xml:space="preserve">
+    <value>Mega</value>
+  </data>
+  <data name="Form_MegaX" xml:space="preserve">
+    <value>Mega-X</value>
+  </data>
+  <data name="Form_MegaY" xml:space="preserve">
+    <value>Mega-Y</value>
+  </data>
+  <data name="Form_Gigadynamax" xml:space="preserve">
+    <value>Gigantamax</value>
+  </data>
+  <data name="Form_Alola" xml:space="preserve">
+    <value>Alola</value>
+  </data>
+  <data name="Form_Galar" xml:space="preserve">
+    <value>Galar</value>
+  </data>
+  <data name="Form_Cosplay" xml:space="preserve">
+    <value>Cosplay</value>
+  </data>
+  <data name="Form_RockStar" xml:space="preserve">
+    <value>Rock Star</value>
+  </data>
+  <data name="Form_Belle" xml:space="preserve">
+    <value>Belle</value>
+  </data>
+  <data name="Form_Libre" xml:space="preserve">
+    <value>Libre</value>
+  </data>
+  <data name="Form_Professor" xml:space="preserve">
+    <value>Ph. D</value>
+  </data>
+  <data name="Form_PopStar" xml:space="preserve">
+    <value>Pop Star</value>
+  </data>
+  <data name="Form_Primal" xml:space="preserve">
+    <value>Primal Reversion</value>
+  </data>
+  <data name="Form_SunshineForm" xml:space="preserve">
+    <value>Sunshine Form</value>
+  </data>
+  <data name="Form_Attack" xml:space="preserve">
+    <value>Attack</value>
+  </data>
+  <data name="Form_Defense" xml:space="preserve">
+    <value>Defense</value>
+  </data>
+  <data name="Form_Speed" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="Form_SandyCloak" xml:space="preserve">
+    <value>Sandy Cloak</value>
+  </data>
+  <data name="Form_TrashCloak" xml:space="preserve">
+    <value>Trash Cloak</value>
+  </data>
+  <data name="Form_WestSea" xml:space="preserve">
+    <value>West Sea</value>
+  </data>
+  <data name="Form_EastSea" xml:space="preserve">
+    <value>East See</value>
+  </data>
+  <data name="Form_Fan" xml:space="preserve">
+    <value>Fan</value>
+  </data>
+  <data name="Form_Frost" xml:space="preserve">
+    <value>Frost</value>
+  </data>
+  <data name="Form_Heat" xml:space="preserve">
+    <value>Heat</value>
+  </data>
+  <data name="Form_Mow" xml:space="preserve">
+    <value>Mow</value>
+  </data>
+  <data name="Form_Wash" xml:space="preserve">
+    <value>Wash</value>
+  </data>
+  <data name="Form_OriginForm" xml:space="preserve">
+    <value>Origin Forme</value>
+  </data>
+  <data name="Form_SkyForme" xml:space="preserve">
+    <value>Sky Forme</value>
+  </data>
+  <data name="Form_OvercastForm" xml:space="preserve">
+    <value>Overcast Form</value>
+  </data>
+  <data name="Form_Female" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="Form_BlueStriped" xml:space="preserve">
+    <value>Blue-Striped</value>
+  </data>
+  <data name="Form_ZenMode" xml:space="preserve">
+    <value>Zen Mode</value>
+  </data>
+  <data name="Form_Spring" xml:space="preserve">
+    <value>Spring</value>
+  </data>
+  <data name="Form_Summer" xml:space="preserve">
+    <value>Summer</value>
+  </data>
+  <data name="Form_Autumn" xml:space="preserve">
+    <value>Autumn</value>
+  </data>
+  <data name="Form_Winter" xml:space="preserve">
+    <value>Winter</value>
+  </data>
+  <data name="Form_TherianForme" xml:space="preserve">
+    <value>Therian Forme</value>
+  </data>
+  <data name="Form_Black" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="Form_White" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="Form_ResoluteForm" xml:space="preserve">
+    <value>Resolute Form</value>
+  </data>
+  <data name="Form_PirouetteForme" xml:space="preserve">
+    <value>Pirouette Forme</value>
+  </data>
+  <data name="Form_Ash" xml:space="preserve">
+    <value>Ash</value>
+  </data>
+  <data name="Form_DiamondTrim" xml:space="preserve">
+    <value>Diamond Trim</value>
+  </data>
+  <data name="Form_HeartTrim" xml:space="preserve">
+    <value>Heart Trim</value>
+  </data>
+  <data name="Form_StarTrim" xml:space="preserve">
+    <value>Star Trim</value>
+  </data>
+  <data name="Form_BladeForme" xml:space="preserve">
+    <value>Blade Forme</value>
+  </data>
+  <data name="Form_ShieldForme" xml:space="preserve">
+    <value>Shield Forme</value>
+  </data>
+  <data name="Form_Unbound" xml:space="preserve">
+    <value>Unbound</value>
+  </data>
+  <data name="Form_Confined" xml:space="preserve">
+    <value>Confined</value>
+  </data>
+  <data name="Form_TenPercentForme" xml:space="preserve">
+    <value>10% Forme</value>
+  </data>
+  <data name="Form_FiftyPercentForme" xml:space="preserve">
+    <value>50% Forme</value>
+  </data>
+  <data name="Form_CompleteForme" xml:space="preserve">
+    <value>Complete Forme</value>
+  </data>
+  <data name="Form_SensuStyle" xml:space="preserve">
+    <value>Sensu Style</value>
+  </data>
+  <data name="Form_PomPomStyle" xml:space="preserve">
+    <value>Pom-Pom Style</value>
+  </data>
+  <data name="Form_BaileStyle" xml:space="preserve">
+    <value>Baile Style</value>
+  </data>
+  <data name="Form_PauStyle" xml:space="preserve">
+    <value>Pa'u Style</value>
+  </data>
+  <data name="Form_MidnightForm" xml:space="preserve">
+    <value>Midnight Form</value>
+  </data>
+  <data name="Form_DuskForm" xml:space="preserve">
+    <value>Dusk Form</value>
+  </data>
+  <data name="Form_SchoolForm" xml:space="preserve">
+    <value>School Form</value>
+  </data>
+  <data name="Form_RedCore" xml:space="preserve">
+    <value>Red Core</value>
+  </data>
+  <data name="Form_DawnWings" xml:space="preserve">
+    <value>Dawn Wings</value>
+  </data>
+  <data name="Form_DuskMane" xml:space="preserve">
+    <value>Dusk Mane</value>
+  </data>
+  <data name="Form_Ultra" xml:space="preserve">
+    <value>Ultra</value>
+  </data>
+  <data name="Form_OriginalColor" xml:space="preserve">
+    <value>Original Color</value>
+  </data>
+  <data name="Form_LowKeyForm" xml:space="preserve">
+    <value>Low Key Form</value>
+  </data>
+  <data name="Form_HangryMode" xml:space="preserve">
+    <value>Hangry Mode</value>
+  </data>
+  <data name="Form_CrownedSword" xml:space="preserve">
+    <value>Crowned Sword</value>
+  </data>
+  <data name="Form_CrownedShield" xml:space="preserve">
+    <value>Crowned Shield</value>
+  </data>
+  <data name="Form_HeroOfManyBattles" xml:space="preserve">
+    <value>Hero of Many Battles</value>
+  </data>
+  <data name="Form_Eternamax" xml:space="preserve">
+    <value>Eternamax</value>
+  </data>
+  <data name="Form_SingleStrikeStyle" xml:space="preserve">
+    <value>Single Strike Style</value>
+  </data>
+  <data name="Form_RapidStrikeStyle" xml:space="preserve">
+    <value>Rapid Strike Style</value>
+  </data>
+  <data name="Form_IceRider" xml:space="preserve">
+    <value>Ice Rider</value>
+  </data>
+  <data name="Form_ShadowRider" xml:space="preserve">
+    <value>Shadow Rider</value>
+  </data>
+  <data name="Form_OriginalCap" xml:space="preserve">
+    <value>Original Cap</value>
+  </data>
+  <data name="Form_HoennCap" xml:space="preserve">
+    <value>Hoenn Cap</value>
+  </data>
+  <data name="Form_SinnohCap" xml:space="preserve">
+    <value>Sinnoh Cap</value>
+  </data>
+  <data name="Form_UnovaCap" xml:space="preserve">
+    <value>Unova Cap</value>
+  </data>
+  <data name="Form_KalosCap" xml:space="preserve">
+    <value>Kalos Cap</value>
+  </data>
+  <data name="Form_AlolaCap" xml:space="preserve">
+    <value>Alola Cap</value>
+  </data>
+  <data name="Form_PartnerCap" xml:space="preserve">
+    <value>Partner Cap</value>
+  </data>
+  <data name="Form_WorldCap" xml:space="preserve">
+    <value>World Cap</value>
+  </data>
+  <data name="Form_Grass" xml:space="preserve">
+    <value>Grass</value>
+  </data>
+  <data name="Form_Fire" xml:space="preserve">
+    <value>Fire</value>
+  </data>
+  <data name="Form_Water" xml:space="preserve">
+    <value>Water</value>
+  </data>
+  <data name="Form_Flying" xml:space="preserve">
+    <value>Flying</value>
+  </data>
+  <data name="Form_Electric" xml:space="preserve">
+    <value>Electric</value>
+  </data>
+  <data name="Form_Bug" xml:space="preserve">
+    <value>Bug</value>
+  </data>
+  <data name="Form_Poison" xml:space="preserve">
+    <value>Poison</value>
+  </data>
+  <data name="Form_Rock" xml:space="preserve">
+    <value>Rock</value>
+  </data>
+  <data name="Form_Ground" xml:space="preserve">
+    <value>Ground</value>
+  </data>
+  <data name="Form_Fighting" xml:space="preserve">
+    <value>Fighting</value>
+  </data>
+  <data name="Form_Psychic" xml:space="preserve">
+    <value>Psychic</value>
+  </data>
+  <data name="Form_Ghost" xml:space="preserve">
+    <value>Ghost</value>
+  </data>
+  <data name="Form_Ice" xml:space="preserve">
+    <value>Ice</value>
+  </data>
+  <data name="Form_Dragon" xml:space="preserve">
+    <value>Dragon</value>
+  </data>
+  <data name="Form_Dark" xml:space="preserve">
+    <value>Dark</value>
+  </data>
+  <data name="Form_Steel" xml:space="preserve">
+    <value>Steel</value>
+  </data>
+  <data name="Form_Fairy" xml:space="preserve">
+    <value>Fairy</value>
+  </data>
+  <data name="Form_DouseDrive" xml:space="preserve">
+    <value>Douse Drive</value>
+  </data>
+  <data name="Form_ShockDrive" xml:space="preserve">
+    <value>Shock Drive</value>
+  </data>
+  <data name="Form_BurnDrive" xml:space="preserve">
+    <value>Burn Drive</value>
+  </data>
+  <data name="Form_ChillDrive" xml:space="preserve">
+    <value>Chill Drive</value>
+  </data>
+  <data name="Form_YellowFlower" xml:space="preserve">
+    <value>Yellow Flower</value>
+  </data>
+  <data name="Form_OrangeFlower" xml:space="preserve">
+    <value>Orange Flower</value>
+  </data>
+  <data name="Form_BlueFlower" xml:space="preserve">
+    <value>Blue Flower</value>
+  </data>
+  <data name="Form_WhiteFlower" xml:space="preserve">
+    <value>White Flower</value>
+  </data>
+  <data name="Form_RedFlower" xml:space="preserve">
+    <value>Red Flower</value>
+  </data>
+  <data name="Form_LaReineTrim" xml:space="preserve">
+    <value>La Reine Trim</value>
+  </data>
+  <data name="Form_KabukiTrim" xml:space="preserve">
+    <value>Kabuki Trim</value>
+  </data>
+  <data name="Form_PharaoTrim" xml:space="preserve">
+    <value>Pharao Trim</value>
+  </data>
+  <data name="Form_DebutanteTrim" xml:space="preserve">
+    <value>Debutante Trim</value>
+  </data>
+  <data name="Form_MatronTrim" xml:space="preserve">
+    <value>Matron Trim</value>
+  </data>
+  <data name="Form_DandyTrim" xml:space="preserve">
+    <value>Dandy Trim</value>
+  </data>
+  <data name="Form_SmallSize" xml:space="preserve">
+    <value>Small Size</value>
+  </data>
+  <data name="Form_AverageSize" xml:space="preserve">
+    <value>Average Size</value>
+  </data>
+  <data name="Form_LargeSize" xml:space="preserve">
+    <value>Large Size</value>
+  </data>
+  <data name="Form_SuperSize" xml:space="preserve">
+    <value>Super Size</value>
+  </data>
+  <data name="Form_NeutralMode" xml:space="preserve">
+    <value>Neutral Mode</value>
+  </data>
+  <data name="Form_OrangeCore" xml:space="preserve">
+    <value>Orange Core</value>
+  </data>
+  <data name="Form_YellowCore" xml:space="preserve">
+    <value>Yellow Core</value>
+  </data>
+  <data name="Form_GreenCore" xml:space="preserve">
+    <value>Green Core</value>
+  </data>
+  <data name="Form_BlueCore" xml:space="preserve">
+    <value>Blue Core</value>
+  </data>
+  <data name="Form_IndigoCore" xml:space="preserve">
+    <value>Indigo Core</value>
+  </data>
+  <data name="Form_VioletCore" xml:space="preserve">
+    <value>Violet Core</value>
+  </data>
+  <data name="Form_BustedForm" xml:space="preserve">
+    <value>Busted Form</value>
+  </data>
+  <data name="Form_GulpingForm" xml:space="preserve">
+    <value>Gulping Form</value>
+  </data>
+  <data name="Form_GorgingForm" xml:space="preserve">
+    <value>Gorging Form</value>
+  </data>
+  <data name="Form_AntiqueForm" xml:space="preserve">
+    <value>Antique Form</value>
+  </data>
+  <data name="Form_NoiceFace" xml:space="preserve">
+    <value>Noice Face</value>
+  </data>
+  <data name="Form_Dada" xml:space="preserve">
+    <value>Dada</value>
+  </data>
+  <data name="Form_PlantCloak" xml:space="preserve">
+    <value>Plant Cloak</value>
+  </data>
+  <data name="Form_AlteredForme" xml:space="preserve">
+    <value>Altered Forme</value>
+  </data>
+  <data name="Form_LandForme" xml:space="preserve">
+    <value>Land Forme</value>
+  </data>
+  <data name="Form_RedStriped" xml:space="preserve">
+    <value>Red Striped</value>
+  </data>
+  <data name="Form_IncarnateForme" xml:space="preserve">
+    <value>Incarnate Forme</value>
+  </data>
+  <data name="Form_AriaForme" xml:space="preserve">
+    <value>Aria Forme</value>
+  </data>
+  <data name="Form_ActiveMode" xml:space="preserve">
+    <value>Active Mode</value>
+  </data>
+  <data name="Form_MiddayForm" xml:space="preserve">
+    <value>Midday Form</value>
+  </data>
+  <data name="Form_AmpedForm" xml:space="preserve">
+    <value>Amped Form</value>
+  </data>
+  <data name="Form_SunnyForm" xml:space="preserve">
+    <value>Sunny Form</value>
+  </data>
+  <data name="Form_RainyForm" xml:space="preserve">
+    <value>Rainy Form</value>
+  </data>
+  <data name="Form_SnowyForm" xml:space="preserve">
+    <value>Snowy Form</value>
+  </data>
+  <data name="Form_MeadowPattern" xml:space="preserve">
+    <value>Meadow Pattern</value>
+  </data>
+  <data name="Form_PolarPattern" xml:space="preserve">
+    <value>Polar Pattern</value>
+  </data>
+  <data name="Form_TundraPattern" xml:space="preserve">
+    <value>Tundra Pattern</value>
+  </data>
+  <data name="Form_ContinentalPattern" xml:space="preserve">
+    <value>Continental Pattern</value>
+  </data>
+  <data name="Form_GardenPattern" xml:space="preserve">
+    <value>Garden Pattern</value>
+  </data>
+  <data name="Form_ElegantPattern" xml:space="preserve">
+    <value>Elegant Pattern</value>
+  </data>
+  <data name="Form_IcySnowPattern" xml:space="preserve">
+    <value>Icy Snow Pattern</value>
+  </data>
+  <data name="Form_ModernPattern" xml:space="preserve">
+    <value>Modern Pattern</value>
+  </data>
+  <data name="Form_MarinePattern" xml:space="preserve">
+    <value>Marine Pattern</value>
+  </data>
+  <data name="Form_ArchipelagoPattern" xml:space="preserve">
+    <value>Archipelago Pattern</value>
+  </data>
+  <data name="Form_HighPlainsPattern" xml:space="preserve">
+    <value>High Plains Pattern</value>
+  </data>
+  <data name="Form_SandstormPattern" xml:space="preserve">
+    <value>Sandstorm Pattern</value>
+  </data>
+  <data name="Form_RiverPattern" xml:space="preserve">
+    <value>River Pattern</value>
+  </data>
+  <data name="Form_MonsoonPattern" xml:space="preserve">
+    <value>Monsoon Pattern</value>
+  </data>
+  <data name="Form_SavannaPattern" xml:space="preserve">
+    <value>Savanna Pattern</value>
+  </data>
+  <data name="Form_SunPattern" xml:space="preserve">
+    <value>Sun Pattern</value>
+  </data>
+  <data name="Form_OceanPattern" xml:space="preserve">
+    <value>Ocean Pattern</value>
+  </data>
+  <data name="Form_JunglePattern" xml:space="preserve">
+    <value>Jungle Pattern</value>
+  </data>
+  <data name="Form_FancyPattern" xml:space="preserve">
+    <value>Fancy Pattern</value>
+  </data>
+  <data name="Form_PokeBallPattern" xml:space="preserve">
+    <value>Poké Ball Pattern</value>
+  </data>
+  <data name="Form_VanillaCream" xml:space="preserve">
+    <value>Vanilla Cream</value>
+  </data>
+  <data name="Form_RubyCream" xml:space="preserve">
+    <value>Ruby Cream</value>
+  </data>
+  <data name="Form_MatchaCream" xml:space="preserve">
+    <value>Matcha Cream</value>
+  </data>
+  <data name="Form_MintCream" xml:space="preserve">
+    <value>Mint Cream</value>
+  </data>
+  <data name="Form_LemonCream" xml:space="preserve">
+    <value>Lemon Cream</value>
+  </data>
+  <data name="Form_SaltedCream" xml:space="preserve">
+    <value>Salted Cream</value>
+  </data>
+  <data name="Form_RubySwirl" xml:space="preserve">
+    <value>Ruby Swirl</value>
+  </data>
+  <data name="Form_CaramelSwirl" xml:space="preserve">
+    <value>Caramel Swirl</value>
+  </data>
+  <data name="Form_RainbowSwirl" xml:space="preserve">
+    <value>Rainbow Swirl</value>
+  </data>
+  <data name="Form_StrawberrySweet" xml:space="preserve">
+    <value>Strawberry Sweet</value>
+  </data>
+  <data name="Form_LoveSweet" xml:space="preserve">
+    <value>Love Sweet</value>
+  </data>
+  <data name="Form_BerrySweet" xml:space="preserve">
+    <value>Berry Sweet</value>
+  </data>
+  <data name="Form_CloverSweet" xml:space="preserve">
+    <value>Clover Sweet</value>
+  </data>
+  <data name="Form_FlowerSweet" xml:space="preserve">
+    <value>Flower Sweet</value>
+  </data>
+  <data name="Form_StarSweet" xml:space="preserve">
+    <value>Star Sweet</value>
+  </data>
+  <data name="Form_RibbonSweet" xml:space="preserve">
+    <value>Ribbon Sweet</value>
   </data>
 </root>

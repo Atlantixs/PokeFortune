@@ -2850,8 +2850,8 @@
   <data name="Form_Primal" xml:space="preserve">
     <value>Protomorphose</value>
   </data>
-  <data name="Form_SunShineForm" xml:space="preserve">
-    <value>Sonnentagsform</value>
+  <data name="Form_SunshineForm" xml:space="preserve">
+    <value>Sonnenform</value>
   </data>
   <data name="Form_Attack" xml:space="preserve">
     <value>Angriff</value>
@@ -2868,11 +2868,11 @@
   <data name="Form_TrashCloak" xml:space="preserve">
     <value>Lumpenumhang</value>
   </data>
-  <data name="Form_West" xml:space="preserve">
-    <value>Westen</value>
+  <data name="Form_WestSea" xml:space="preserve">
+    <value>Westliches Meer</value>
   </data>
-  <data name="Form_East" xml:space="preserve">
-    <value>Osten</value>
+  <data name="Form_EastSea" xml:space="preserve">
+    <value>Östliches Meer</value>
   </data>
   <data name="Form_Fan" xml:space="preserve">
     <value>Wirbel</value>
@@ -2892,8 +2892,8 @@
   <data name="Form_OriginForm" xml:space="preserve">
     <value>Urform</value>
   </data>
-  <data name="Form_Sky" xml:space="preserve">
-    <value>Zenit</value>
+  <data name="Form_SkyForme" xml:space="preserve">
+    <value>Zenitform</value>
   </data>
   <data name="Form_Female" xml:space="preserve">
     <value>Weiblich</value>
@@ -2901,8 +2901,8 @@
   <data name="Form_BlueStriped" xml:space="preserve">
     <value>Blaulinig</value>
   </data>
-  <data name="Form_Zen" xml:space="preserve">
-    <value>Trance</value>
+  <data name="Form_ZenMode" xml:space="preserve">
+    <value>Trance-Modus</value>
   </data>
   <data name="Form_Spring" xml:space="preserve">
     <value>Frühling</value>
@@ -2916,8 +2916,8 @@
   <data name="Form_Winter" xml:space="preserve">
     <value>Winter</value>
   </data>
-  <data name="Form_Therian" xml:space="preserve">
-    <value>Tiergeist</value>
+  <data name="Form_TherianForme" xml:space="preserve">
+    <value>Tiergeistform</value>
   </data>
   <data name="Form_Black" xml:space="preserve">
     <value>Schwarz</value>
@@ -2925,10 +2925,10 @@
   <data name="Form_White" xml:space="preserve">
     <value>Weiß</value>
   </data>
-  <data name="Form_Resolute" xml:space="preserve">
-    <value>Resolut</value>
+  <data name="Form_ResoluteForm" xml:space="preserve">
+    <value>Resolutform</value>
   </data>
-  <data name="Form_PirouetteForm" xml:space="preserve">
+  <data name="Form_PirouetteForme" xml:space="preserve">
     <value>Tanzform</value>
   </data>
   <data name="Form_Ash" xml:space="preserve">
@@ -2943,35 +2943,35 @@
   <data name="Form_StarTrim" xml:space="preserve">
     <value>Sternchenschnitt</value>
   </data>
-  <data name="Form_Blade" xml:space="preserve">
+  <data name="Form_BladeForme" xml:space="preserve">
     <value>Klinge</value>
   </data>
-  <data name="Form_Shield" xml:space="preserve">
+  <data name="Form_ShieldForme" xml:space="preserve">
     <value>Schild</value>
   </data>
   <data name="Form_Unbound" xml:space="preserve">
-    <value>Entfesselt</value>
+    <value>Entfesseltes</value>
   </data>
-  <data name="Form_TenPercent" xml:space="preserve">
-    <value>10 %</value>
+  <data name="Form_TenPercentForme" xml:space="preserve">
+    <value>10%-Form</value>
   </data>
-  <data name="Form_FiftyPercent" xml:space="preserve">
-    <value>50 %</value>
+  <data name="Form_FiftyPercentForme" xml:space="preserve">
+    <value>50%-Form</value>
   </data>
-  <data name="Form_Complete" xml:space="preserve">
-    <value>Optimum</value>
+  <data name="Form_CompleteForme" xml:space="preserve">
+    <value>Optimum-Form</value>
   </data>
-  <data name="Form_Sensu" xml:space="preserve">
-    <value>Buyo</value>
+  <data name="Form_SensuStyle" xml:space="preserve">
+    <value>Buyo-Stil</value>
   </data>
-  <data name="Form_Pom_Pom" xml:space="preserve">
-    <value>Cheerleading</value>
+  <data name="Form_PomPomStyle" xml:space="preserve">
+    <value>Cheerleading-Stil</value>
   </data>
-  <data name="Form_Baile" xml:space="preserve">
-    <value>Flamenco</value>
+  <data name="Form_BaileStyle" xml:space="preserve">
+    <value>Flamenco-Stil</value>
   </data>
-  <data name="Form_P_au" xml:space="preserve">
-    <value>Hula</value>
+  <data name="Form_PauStyle" xml:space="preserve">
+    <value>Hula-Stil</value>
   </data>
   <data name="Form_MidnightForm" xml:space="preserve">
     <value>Nachtform</value>
@@ -2997,11 +2997,11 @@
   <data name="Form_OriginalColor" xml:space="preserve">
     <value>Originalfarbe</value>
   </data>
-  <data name="Form_LowKey" xml:space="preserve">
+  <data name="Form_LowKeyForm" xml:space="preserve">
     <value>Tief-Form</value>
   </data>
-  <data name="Form_Hangry" xml:space="preserve">
-    <value>Kohldampf</value>
+  <data name="Form_HangryMode" xml:space="preserve">
+    <value>Kohldampfmuster</value>
   </data>
   <data name="Form_CrownedSword" xml:space="preserve">
     <value>König des Schwertes</value>
@@ -3201,22 +3201,22 @@
   <data name="Form_OvercastForm" xml:space="preserve">
     <value>Wolkenform</value>
   </data>
-  <data name="Form_AlteredForm" xml:space="preserve">
+  <data name="Form_AlteredForme" xml:space="preserve">
     <value>Wandelform</value>
   </data>
-  <data name="Form_LandForm" xml:space="preserve">
+  <data name="Form_LandForme" xml:space="preserve">
     <value>Landform</value>
   </data>
   <data name="Form_RedStriped" xml:space="preserve">
     <value>Rotlinig</value>
   </data>
-  <data name="Form_IncarnateForm" xml:space="preserve">
-    <value>Inkarnation</value>
+  <data name="Form_IncarnateForme" xml:space="preserve">
+    <value>Inkarnationsform</value>
   </data>
-  <data name="Form_AriaForm" xml:space="preserve">
-    <value>Gesdangsform</value>
+  <data name="Form_AriaForme" xml:space="preserve">
+    <value>Gesangsform</value>
   </data>
-  <data name="Form_ActiveForm" xml:space="preserve">
+  <data name="Form_ActiveMode" xml:space="preserve">
     <value>Aktiv-Modus</value>
   </data>
   <data name="Form_MiddayForm" xml:space="preserve">
@@ -3341,5 +3341,14 @@
   </data>
   <data name="Form_RibbonSweet" xml:space="preserve">
     <value>Zucker-Schleife</value>
+  </data>
+  <data name="Form_Cosplay" xml:space="preserve">
+    <value>Cosplay</value>
+  </data>
+  <data name="Form_Confined" xml:space="preserve">
+    <value>Gebanntes</value>
+  </data>
+  <data name="Form_HeroOfManyBattles" xml:space="preserve">
+    <value>Heldenhafter Krieger</value>
   </data>
 </root>
