@@ -15,3 +15,5 @@ Tests/PokeFortune.Modules.ModuleName.Tests/bin/
 Tests/PokeFortune.Modules.ModuleName.Tests/obj/
 PokeFortune.Setup/bin/
 PokeFortune.Setup/obj/
+.publish/
+*.pfx

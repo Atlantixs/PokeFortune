@@ -70,6 +70,15 @@ namespace PokeFortune.Core.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Sind Sie sicher, dass Sie das Bild zurücksetzen möchten?.
+        /// </summary>
+        public static string AreYouSureToResetThePicture {
+            get {
+                return ResourceManager.GetString("AreYouSureToResetThePicture", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Achte Generation.
         /// </summary>
         public static string EighthGen {
@@ -129,6 +138,24 @@ namespace PokeFortune.Core.Properties {
         public static string Help {
             get {
                 return ResourceManager.GetString("Help", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Das Bild wurde erfolgreich gespeichert!.
+        /// </summary>
+        public static string ImageSavedSuccessfully {
+            get {
+                return ResourceManager.GetString("ImageSavedSuccessfully", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Information.
+        /// </summary>
+        public static string Information {
+            get {
+                return ResourceManager.GetString("Information", resourceCulture);
             }
         }
         
@@ -408,6 +435,15 @@ namespace PokeFortune.Core.Properties {
         public static string Type_Water {
             get {
                 return ResourceManager.GetString("Type_Water", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Warnung.
+        /// </summary>
+        public static string Warning {
+            get {
+                return ResourceManager.GetString("Warning", resourceCulture);
             }
         }
     }

@@ -506,19 +506,26 @@ namespace PokeFortune.FavouriteEditor.Managers
 					}
 
 					fs.Close();
+
+					System.Windows.MessageBox.Show(Resources.ImageSavedSuccessfully, Resources.Information, System.Windows.MessageBoxButton.OK, System.Windows.MessageBoxImage.Information);
 				}
 			}
 		}
 
 		public void ResetTable()
 		{
-			_selectedList.Clear();
+			var res = System.Windows.MessageBox.Show(Resources.AreYouSureToResetThePicture, Resources.Warning, System.Windows.MessageBoxButton.YesNo, System.Windows.MessageBoxImage.Information, System.Windows.MessageBoxResult.No);
 
-			SelectedRow = GenerationRows.FirstOrDefault();
-			SelectedColumn = PokemonColumns.FirstOrDefault();
+			if (res == System.Windows.MessageBoxResult.Yes)
+			{
+				_selectedList.Clear();
 
-			_currentTemplate = (Bitmap)MediaHelper.ConvertToImage(CoreIconPool.FAVOURITE_TABLE);
-			CurrentImage = new BitmapImage(CoreIconPool.FAVOURITE_TABLE);
+				SelectedRow = GenerationRows.FirstOrDefault();
+				SelectedColumn = PokemonColumns.FirstOrDefault();
+
+				_currentTemplate = (Bitmap)MediaHelper.ConvertToImage(CoreIconPool.FAVOURITE_TABLE);
+				CurrentImage = new BitmapImage(CoreIconPool.FAVOURITE_TABLE);
+			}
 		}
 
 		#endregion

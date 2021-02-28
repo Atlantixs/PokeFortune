@@ -214,4 +214,16 @@
   <data name="Language" xml:space="preserve">
     <value>Language</value>
   </data>
+  <data name="ImageSavedSuccessfully" xml:space="preserve">
+    <value>The picture was saved successfully!</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="AreYouSureToResetThePicture" xml:space="preserve">
+    <value>Are you sure to reset the picture?</value>
+  </data>
 </root>

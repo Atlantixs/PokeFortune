@@ -5,6 +5,11 @@
     <UseWPF>true</UseWPF>
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 		<ApplicationIcon>PokeFortune.ico</ApplicationIcon>
+		<StartupObject>PokeFortune.App</StartupObject>
+		<NoWin32Manifest>true</NoWin32Manifest>
+		<SignAssembly>true</SignAssembly>
+		<DelaySign>false</DelaySign>
+		<AssemblyOriginatorKeyFile>PokeFortune.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="PokeFortune.png" />
