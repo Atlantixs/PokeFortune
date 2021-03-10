@@ -47,7 +47,7 @@ namespace PokeFortune.GUI
 
 			var help = new FortuneMenuItem(ModuleType.General)
 			{
-				Header = Resources.Help
+				Header = Resources.Help																																												
 			};
 
 			help.MenuItems.Add(new FortuneMenuItem(ModuleType.General)
