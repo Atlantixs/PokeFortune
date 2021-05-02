@@ -1,5 +1,6 @@
 ﻿using PokeFortune.Core;
 using PokeFortune.Core.Collections;
+using PokeFortune.Core.Consts;
 using PokeFortune.Core.Extensions;
 using PokeFortune.Core.Helpers;
 using PokeFortune.Core.Properties;
@@ -45,6 +46,8 @@ namespace PokeFortune.FavouriteEditor.Managers
 
 	public class TemplateManager : BindableBase, ITemplateManager
 	{
+		private static string LAST_EDIT_PATH = PathHelper.LOCAL_PATH + "LastEditTemplate.xml";
+
 		private readonly List<PokeCell> _allPokes = new List<PokeCell>();
 
 		private readonly List<(RowType row, ColumnType col, PokeCell poke)> _selectedList = new List<(RowType row, ColumnType col, PokeCell poke)>();
@@ -110,7 +113,9 @@ namespace PokeFortune.FavouriteEditor.Managers
 			}
 
 			UpdatePokemonCollection();
-			UpdateTable();
+
+			if (!LoadLastEdit())
+				UpdateTable();
 		}
 
 		private ColumnType GetColumnTypeByPokemonType(PokemonType type) => type switch
@@ -301,6 +306,7 @@ namespace PokeFortune.FavouriteEditor.Managers
 
 			AddCurrentPokemonToTable(selectedPoke);
 			NextColumn();
+			LastEditSave();
 		}
 
 		public void NextColumn()
@@ -525,7 +531,39 @@ namespace PokeFortune.FavouriteEditor.Managers
 
 				_currentTemplate = (Bitmap)MediaHelper.ConvertToImage(CoreIconPool.FAVOURITE_TABLE);
 				CurrentImage = new BitmapImage(CoreIconPool.FAVOURITE_TABLE);
+
+				LastEditSave();
 			}
+		}
+
+		private bool LoadLastEdit()
+		{
+			if (File.Exists(LAST_EDIT_PATH))
+			{
+				var xmlTemplate = XmlHelper.Deserialize<XmlTemplate>(File.ReadAllText(LAST_EDIT_PATH));
+
+				foreach (var cell in xmlTemplate.Cells)
+				{
+					var pokeCell = _allPokes.FirstOrDefault(x => x.ID == cell.PokeID);
+
+					if (pokeCell == null)
+						pokeCell = new PokeCell(PokemonList.MissingNo);
+
+					_selectedList.Add((cell.RowType, cell.ColumnType, pokeCell));
+				}
+
+				UpdateTable();
+				return true;
+			}
+
+			return false;
+		}
+
+		private void LastEditSave()
+		{
+			PathHelper.CheckDirectory(PathHelper.LOCAL_PATH);
+			var xmlTemplate = new XmlTemplate(_selectedList.Select(x => new XmlCell(x.row, x.col, x.poke.ID)));
+			File.WriteAllText(LAST_EDIT_PATH, XmlHelper.Serialize(xmlTemplate));
 		}
 
 		#endregion

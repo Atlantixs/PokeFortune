@@ -1,4 +1,5 @@
-﻿using PokeFortune.Core.Helpers;
+﻿using PokeFortune.Core.Consts;
+using PokeFortune.Core.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -13,8 +14,7 @@ namespace PokeFortune.Models
 	[Serializable]
 	public class Settings
 	{
-		private static string SETTINGS_PATH => Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "/PokeFortune/";
-		private static string SETTINGS_FILE => "settings.xml";
+		private static string SETTINGS_FILE => PathHelper.ROAMING_PATH + "settings.xml";
 
 
 		[XmlAttribute]
@@ -24,23 +24,22 @@ namespace PokeFortune.Models
 		{
 			CheckDirectories();
 
-			File.WriteAllText(SETTINGS_PATH + SETTINGS_FILE, XmlHelper.Serialize(this));
+			File.WriteAllText(SETTINGS_FILE, XmlHelper.Serialize(this));
 		}
 
 		public static void CheckDirectories()
 		{
-			if (!Directory.Exists(SETTINGS_PATH))
-				Directory.CreateDirectory(SETTINGS_PATH);
+			PathHelper.CheckDirectory(PathHelper.ROAMING_PATH);
 
-			if (!File.Exists(SETTINGS_PATH + SETTINGS_FILE))
-				File.WriteAllText(SETTINGS_PATH + SETTINGS_FILE, XmlHelper.Serialize(new Settings()));
+			if (!File.Exists(SETTINGS_FILE))
+				File.WriteAllText(SETTINGS_FILE, XmlHelper.Serialize(new Settings()));
 		}
 
 		public static Settings GetCurrentSettings()
 		{
 			CheckDirectories();
 
-			return XmlHelper.Deserialize<Settings>(File.ReadAllText(SETTINGS_PATH + SETTINGS_FILE));
+			return XmlHelper.Deserialize<Settings>(File.ReadAllText(SETTINGS_FILE));
 		}
 	}
 }

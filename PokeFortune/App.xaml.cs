@@ -60,7 +60,6 @@ namespace PokeFortune
 
 		protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
 		{
-			PokemonList.LoadPokemons();
 			moduleCatalog.AddModule<FavouriteEditorModule>();
 		}
 

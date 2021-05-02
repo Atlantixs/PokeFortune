@@ -9,6 +9,11 @@ namespace PokeFortune.Data
 {
 	public static class PokemonList
 	{
+		static PokemonList()
+		{
+			LoadPokemons();
+		}
+
 		public static Pokemon MissingNo => new Pokemon(0, resx.Poke_Missingno, PokemonType.None);
 
 		public static Pokemon GetPokemonById(int id)
@@ -35,7 +40,7 @@ namespace PokeFortune.Data
 				_ = new PokeForm(lastPoke, subId, formName, additionalUri, firstType, secondType, generation, formType);
 		}
 
-		public static void LoadPokemons()
+		private static void LoadPokemons()
 		{
 			Pokemons = null;
 			var pokeList = new List<Pokemon>();
